@@ -1,0 +1,138 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* حاوية تسجيل الدخول */
+.login-container {
+    display: flex;
+    height: 100vh;
+}
+
+/* الجزء الخاص بالفورم */
+.login-form {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background: #fff;
+}
+
+.logo {
+    width: 300px; /* حجم اللوجو */
+    margin-bottom: 10px;
+}
+
+/*h2 {
+    margin-bottom: 20px;
+    color: #000000 !important;
+}
+*/
+form {
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+/* زر استرجاع كلمة المرور */
+.forgot-password, .register-button {
+    background: none;
+    border: none;
+    color: #000000;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+    .forgot-password:hover, .register-button:hover {
+        text-decoration: underline;
+    }
+
+/* تنسيق النص أسفل الفورم */
+p {
+    margin-top: 10px;
+
+}
+
+    p button {
+        color: #000000;
+        text-decoration: none;
+    }
+
+/* الجزء الخاص بالصورة الخلفية */
+.login-image {
+    flex: 1;
+    background: url("../assets/bg2.jpeg") no-repeat center center/cover;
+    height: 100vh;
+}
+
+/* CSS */
+
+.google-login mt-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+/* CSS */
+.button-33 {
+    background-color: #E2C275; /* اللون الأساسي */
+    border-radius: 50px;
+    box-shadow: rgba(226, 194, 117, 0.3) 0 -25px 18px -14px inset, rgba(226, 194, 117, 0.2) 0 1px 2px, rgba(226, 194, 117, 0.2) 0 2px 4px, rgba(226, 194, 117, 0.2) 0 4px 8px, rgba(226, 194, 117, 0.2) 0 8px 16px, rgba(226, 194, 117, 0.2) 0 16px 32px;
+    color: #5A3E14; /* لون النص داكن ليظهر بوضوح */
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    
+}
+
+    .button-33:hover {
+        box-shadow: rgba(226, 194, 117, 0.5) 0 -25px 18px -14px inset, rgba(226, 194, 117, 0.3) 0 1px 2px, rgba(226, 194, 117, 0.3) 0 2px 4px, rgba(226, 194, 117, 0.3) 0 4px 8px, rgba(226, 194, 117, 0.3) 0 8px 16px, rgba(226, 194, 117, 0.3) 0 16px 32px;
+        transform: scale(1.05) rotate(-1deg);
+    }
+/* ... باقي التنسيقات بدون تغيير ... */
+
+/* تصحيح تنسيق Google Login */
+.google-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* تقليل المسافة العلوية لتجنب الفجوة الكبيرة */
+}
+
+/* توسيط النص أسفل زر جوجل */
+form p {
+    text-align: center; /* توسيط النص */
+    margin-top: 10px;
+}
+
+/* تنسيق زر جوجل */
+.google-login > div {
+    display: flex;
+    justify-content: center;
+    width: 100%; /* التأكد من أن الزر يأخذ العرض الكامل */
+}

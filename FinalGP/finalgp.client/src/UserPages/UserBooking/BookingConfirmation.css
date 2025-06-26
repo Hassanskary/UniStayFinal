@@ -1,0 +1,52 @@
+.booking-confirmation-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-top: 100px;
+}
+
+    .booking-confirmation-container h2 {
+        color: #28a745;
+        margin-bottom: 30px;
+        font-size: 28px;
+    }
+
+.booking-details {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+    .booking-details p {
+        margin: 10px 0;
+        font-size: 16px;
+        color: #333;
+    }
+
+.bu-suc {
+    background-color: #E2C275;
+    border-radius: 50px;
+    box-shadow: rgba(226, 194, 117, 0.3) 0 -25px 18px -14px inset, rgba(226, 194, 117, 0.2) 0 1px 2px, rgba(226, 194, 117, 0.2) 0 2px 4px, rgba(226, 194, 117, 0.2) 0 4px 8px, rgba(226, 194, 117, 0.2) 0 8px 16px, rgba(226, 194, 117, 0.2) 0 16px 32px;
+    color: #5A3E14;
+    cursor: pointer;
+    font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+    .bu-suc:hover {
+        box-shadow: rgba(226, 194, 117, 0.5) 0 -25px 18px -14px inset, rgba(226, 194, 117, 0.3) 0 1px 2px, rgba(226, 194, 117, 0.3) 0 2px 4px, rgba(226, 194, 117, 0.3) 0 4px 8px, rgba(226, 194, 117, 0.3) 0 8px 16px, rgba(226, 194, 117, 0.3) 0 16px 32px;
+        transform: scale(1.05) rotate(-1deg);
+    }

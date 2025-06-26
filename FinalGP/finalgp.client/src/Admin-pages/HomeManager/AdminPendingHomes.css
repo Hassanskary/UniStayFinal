@@ -1,0 +1,273 @@
+﻿.admin-pending-homes-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+    background-image: url("../../assets/back_g.png");
+    background-size: cover; /* جربي تعدلي الحجم هنا حسب الصورة */
+    padding: 20px;
+    text-align: center;
+    color: white;
+    background-position: center;
+    background-repeat: repeat-y;
+    width: 100vw; /* خلي العرض حسب ما تحبي */
+    background-position: center top;
+    background-attachment: fixed;
+}
+
+.homes-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    width: 90%;
+}
+
+/* تعديل الكارد ليكون أكثر تناسقًا */
+.admin-pending-homes-container .home-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+    max-width: 900px;
+    width: 90%;
+    text-align: center;
+    margin: 20px auto;
+    gap: 20px;
+}
+
+.home-image-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 30px;
+    object-fit: contain; /* يضمن عدم تمدد الصورة */
+}
+
+.fade-in {
+    opacity: 1;
+    transform: scale(1);
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.fade-out {
+    opacity: 0;
+    transform: scale(0.9);
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+/* تنسيق الصندوق الشفاف */
+.admin-pending-homes-container .home-card {
+    display: flex;
+    flex-direction: column; /* ترتيب المحتوى عموديًا */
+    align-items: center;
+    background: rgba(255, 255, 255, 0.5); /* شفافية مناسبة */
+    backdrop-filter: blur(10px);
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+    max-width: 900px;
+    width: 90%;
+    text-align: center;
+    margin: 20px auto; /* يضمن التوسيط */
+    gap: 20px;
+}
+
+.admin-pending-homes-container h2 {
+    color: black;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.home-details {
+    flex: 1;
+    text-align: left;
+    color: black;
+}
+
+.home-title {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.home-details p {
+    margin: 4px 0;
+    font-size: 16px;
+}
+
+.home-buttons {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+/* الأزرار */
+.button-custom {
+    background-color: #E2C275;
+    border-radius: 50px;
+    box-shadow: rgba(226, 194, 117, 0.3) 0 -25px 18px -14px inset, rgba(226, 194, 117, 0.2) 0 1px 2px, rgba(226, 194, 117, 0.2) 0 2px 4px, rgba(226, 194, 117, 0.2) 0 4px 8px, rgba(226, 194, 117, 0.2) 0 8px 16px, rgba(226, 194, 117, 0.2) 0 16px 32px;
+    color: #5A3E14;
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+    .button-custom :hover {
+        box-shadow: rgba(226, 194, 117, 0.5) 0 -25px 18px -14px inset, rgba(226, 194, 117, 0.3) 0 1px 2px, rgba(226, 194, 117, 0.3) 0 2px 4px, rgba(226, 194, 117, 0.3) 0 4px 8px, rgba(226, 194, 117, 0.3) 0 8px 16px, rgba(226, 194, 117, 0.3) 0 16px 32px;
+        transform: scale(1.05) rotate(-1deg);
+    }
+
+/* زرار عرض العقد / إظهار المنزل - ذهبي */
+.btn-toggle {
+    background-color: #E2C275;
+    color: #5A3E14;
+    box-shadow: rgba(226, 194, 117, 0.3) 0 -25px 18px -14px inset, rgba(226, 194, 117, 0.2) 0 1px 2px, rgba(226, 194, 117, 0.2) 0 2px 4px, rgba(226, 194, 117, 0.2) 0 4px 8px, rgba(226, 194, 117, 0.2) 0 8px 16px, rgba(226, 194, 117, 0.2) 0 16px 32px;
+}
+
+    .btn-toggle:hover {
+        box-shadow: rgba(226, 194, 117, 0.5) 0 -25px 18px -14px inset, rgba(226, 194, 117, 0.3) 0 1px 2px, rgba(226, 194, 117, 0.3) 0 2px 4px, rgba(226, 194, 117, 0.3) 0 4px 8px, rgba(226, 194, 117, 0.3) 0 8px 16px, rgba(226, 194, 117, 0.3) 0 16px 32px;
+        transform: scale(1.05) rotate(-1deg);
+    }
+
+/* زرار الموافقة - أخضر */
+.btn-approve {
+    background-color: #4CAF50;
+    color: #fff;
+    box-shadow: rgba(76, 175, 80, 0.3) 0 -25px 18px -14px inset, rgba(76, 175, 80, 0.2) 0 1px 2px, rgba(76, 175, 80, 0.2) 0 2px 4px, rgba(76, 175, 80, 0.2) 0 4px 8px, rgba(76, 175, 80, 0.2) 0 8px 16px, rgba(76, 175, 80, 0.2) 0 16px 32px;
+}
+
+    .btn-approve:hover {
+        box-shadow: rgba(76, 175, 80, 0.5) 0 -25px 18px -14px inset, rgba(76, 175, 80, 0.3) 0 1px 2px, rgba(76, 175, 80, 0.3) 0 2px 4px, rgba(76, 175, 80, 0.3) 0 4px 8px, rgba(76, 175, 80, 0.3) 0 8px 16px, rgba(76, 175, 80, 0.3) 0 16px 32px;
+        transform: scale(1.05) rotate(-1deg);
+    }
+
+/* زرار التفاصيل - أزرق */
+.details-btn {
+    background-color: #2196F3;
+    color: #fff;
+    box-shadow: rgba(33, 150, 243, 0.3) 0 -25px 18px -14px inset, rgba(33, 150, 243, 0.2) 0 1px 2px, rgba(33, 150, 243, 0.2) 0 2px 4px, rgba(33, 150, 243, 0.2) 0 4px 8px, rgba(33, 150, 243, 0.2) 0 8px 16px, rgba(33, 150, 243, 0.2) 0 16px 32px;
+}
+
+    .details-btn:hover {
+        box-shadow: rgba(33, 150, 243, 0.5) 0 -25px 18px -14px inset, rgba(33, 150, 243, 0.3) 0 1px 2px, rgba(33, 150, 243, 0.3) 0 2px 4px, rgba(33, 150, 243, 0.3) 0 4px 8px, rgba(33, 150, 243, 0.3) 0 8px 16px, rgba(33, 150, 243, 0.3) 0 16px 32px;
+        transform: scale(1.05) rotate(-1deg);
+    }
+
+/* زرار الرفض - أحمر */
+.btn-reject {
+    background-color: #F44336;
+    color: #fff;
+    box-shadow: rgba(244, 67, 54, 0.3) 0 -25px 18px -14px inset, rgba(244, 67, 54, 0.2) 0 1px 2px, rgba(244, 67, 54, 0.2) 0 2px 4px, rgba(244, 67, 54, 0.2) 0 4px 8px, rgba(244, 67, 54, 0.2) 0 8px 16px, rgba(244, 67, 54, 0.2) 0 16px 32px;
+}
+
+    .btn-reject:hover {
+        box-shadow: rgba(244, 67, 54, 0.5) 0 -25px 18px -14px inset, rgba(244, 67, 54, 0.3) 0 1px 2px, rgba(244, 67, 54, 0.3) 0 2px 4px, rgba(244, 67, 54, 0.3) 0 4px 8px, rgba(244, 67, 54, 0.3) 0 8px 16px, rgba(244, 67, 54, 0.3) 0 16px 32px;
+        transform: scale(1.05) rotate(-1deg);
+    }
+
+.home-image-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.admin-pending-homes-container .home-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 30px;
+    object-fit: cover;
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.fade-in {
+    opacity: 1;
+    transform: scale(1);
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+.fade-out {
+    opacity: 0;
+    transform: scale(0.9);
+    animation: fadeOut 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    to {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+}
+
+.btn-bottom-section {
+    display: flex;
+    margin-top: 20px;
+}
+
+    .btn-bottom-section > button {
+        margin-right: 20px;
+    }
+
+/* New styling for "No homes exist." message */
+.no-homes {
+    font-size: 32px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px 40px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    margin-top: 30px;
+}
+
+.admin-unauthorized-background-unique {
+    background-color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

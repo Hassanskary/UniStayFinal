@@ -1,0 +1,186 @@
+﻿.home-reports-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url("../../assets/back_g.png");
+    background-size: cover;
+    background-position: center;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+}
+
+    .home-reports-container h2 {
+        margin-bottom: 20px;
+        color: #333;
+    }
+
+.error {
+    color: red;
+    margin-top: 10px;
+}
+
+.reports-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.report-card {
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+    .report-card p {
+        margin: 6px 0;
+        color: #333;
+    }
+/* ستايل عام لكل الأزرار */
+.button-style {
+    border-radius: 50px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+    padding: 10px 25px;
+    text-align: center;
+    font-size: 16px;
+    border: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+/* زرار الموافقة (Resolve) - أخضر */
+.resolve-btn {
+    background-color: #4CAF50; /* أخضر */
+    color: white;
+    box-shadow: rgba(76, 175, 80, 0.3) 0 -25px 18px -14px inset, rgba(76, 175, 80, 0.2) 0 1px 2px, rgba(76, 175, 80, 0.2) 0 2px 4px, rgba(76, 175, 80, 0.2) 0 4px 8px;
+}
+
+    .resolve-btn:hover {
+        box-shadow: rgba(76, 175, 80, 0.5) 0 -25px 18px -14px inset, rgba(76, 175, 80, 0.3) 0 1px 2px, rgba(76, 175, 80, 0.3) 0 2px 4px, rgba(76, 175, 80, 0.3) 0 4px 8px;
+        transform: scale(1.05) rotate(-1deg);
+    }
+
+/* زرار الرفض (Reject) - أحمر */
+.reject-btn {
+    background-color: #F44336; /* أحمر */
+    color: white;
+    box-shadow: rgba(244, 67, 54, 0.3) 0 -25px 18px -14px inset, rgba(244, 67, 54, 0.2) 0 1px 2px, rgba(244, 67, 54, 0.2) 0 2px 4px;
+}
+
+    .reject-btn:hover {
+        box-shadow: rgba(244, 67, 54, 0.5) 0 -25px 18px -14px inset, rgba(244, 67, 54, 0.3) 0 1px 2px, rgba(244, 67, 54, 0.3) 0 2px 4px;
+        transform: scale(1.05) rotate(-1deg);
+    }
+
+
+/* زرار الموافقة (Resolve) - أخضر */
+.btn-confirm {
+    background-color: #4CAF50; /* أخضر */
+    color: white;
+    box-shadow: rgba(76, 175, 80, 0.3) 0 -25px 18px -14px inset, rgba(76, 175, 80, 0.2) 0 1px 2px, rgba(76, 175, 80, 0.2) 0 2px 4px, rgba(76, 175, 80, 0.2) 0 4px 8px;
+}
+
+    .btn-confirm:hover {
+        box-shadow: rgba(76, 175, 80, 0.5) 0 -25px 18px -14px inset, rgba(76, 175, 80, 0.3) 0 1px 2px, rgba(76, 175, 80, 0.3) 0 2px 4px, rgba(76, 175, 80, 0.3) 0 4px 8px;
+        transform: scale(1.05) rotate(-1deg);
+    }
+
+/* زرار الرفض (Reject) - أحمر */
+.cancel-btn-re {
+    background-color: #F44336; /* أحمر */
+    color: white;
+    box-shadow: rgba(244, 67, 54, 0.3) 0 -25px 18px -14px inset, rgba(244, 67, 54, 0.2) 0 1px 2px, rgba(244, 67, 54, 0.2) 0 2px 4px;
+}
+
+    .cancel-btn-re:hover {
+        box-shadow: rgba(244, 67, 54, 0.5) 0 -25px 18px -14px inset, rgba(244, 67, 54, 0.3) 0 1px 2px, rgba(244, 67, 54, 0.3) 0 2px 4px;
+        transform: scale(1.05) rotate(-1deg);
+    }
+
+
+/* ----- Ban Modal Overlay ----- */
+.ban-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ban-modal-content {
+    background: #fff;
+    padding: 20px;
+    width: 400px;
+    border-radius: 8px;
+}
+
+    .ban-modal-content h3 {
+        margin-bottom: 15px;
+        color: #333;
+    }
+
+.ban-reason-textarea {
+    width: 100%;
+    height: 80px;
+    margin-bottom: 15px;
+    resize: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+}
+
+.ban-modal-buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+
+.custom-toast {
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 12px;
+    padding: 16px 24px;
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    color: white;
+    border: none;
+}
+
+/* Success - أخضر */
+.success-toast {
+    background-color: #28a745;
+}
+
+/* Error - أحمر */
+.error-toast {
+    background-color: #dc3545;
+}
+
+/* Warning - برتقالي */
+.warning-toast {
+    background-color: #ffc107;
+    color: #000; /* علشان النص يبان على الخلفية الصفراء */
+}
+
+.Toastify__toast-container {
+    z-index: 10000 !important;
+}
+
+.Toastify__toast-container {
+    z-index: 10000 !important;
+}

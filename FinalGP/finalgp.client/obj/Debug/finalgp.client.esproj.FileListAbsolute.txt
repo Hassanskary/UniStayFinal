@@ -1,0 +1,5 @@
+E:\MyProjectAPI\FinalGP\finalgp.client\obj\Debug\finalgp.client.esproj.CoreCompileInputs.cache
+E:\MyProjectAPIL\FinalGP\finalgp.client\obj\Debug\finalgp.client.esproj.CoreCompileInputs.cache
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\finalgp.client\obj\Debug\finalgp.client.esproj.CoreCompileInputs.cache
+E:\MyProjectAPIL 26-5\FinalGP\finalgp.client\obj\Debug\finalgp.client.esproj.CoreCompileInputs.cache
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\finalgp.client\obj\Debug\finalgp.client.esproj.CoreCompileInputs.cache

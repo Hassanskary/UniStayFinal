@@ -1,0 +1,14 @@
+﻿using FinalGP.Data;
+using FinalGP.Models;
+using FinalGP.RepositoryLayer.Generic;
+using FinalGP.RepositoryLayer.Interface;
+
+namespace FinalGP.RepositoryLayer.ClassRepo
+{
+    public class CommentRepository : GenericRepository<Comment>, ICommentRepository
+    {
+        public CommentRepository(ESHContext _context) : base(_context)
+        {
+        }
+    }
+}

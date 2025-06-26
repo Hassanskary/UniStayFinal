@@ -1,0 +1,189 @@
+﻿
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+.rooms-container {
+    background-image: url("../../assets/back_g.png");
+    background-size: cover; /* يجعل الصورة بحجمها الطبيعي بدون تمدد */
+    background-position: center;
+    background-repeat: repeat-y;
+    width: 100vw; /* خلي العرض حسب ما تحبي */
+
+    background-position: center top;
+    background-attachment: fixed;
+    padding: 80px 20px;
+    min-height: 100vh;
+    
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-card {
+    background: #ffffff;
+    padding: 20px 40px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+
+}
+
+    .header-card h2 {
+        margin: 0;
+        font-size: 28px;
+        color: #2c3e50;
+    }
+.rooms-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: flex-start; /* عشان الكارت يترص على الشمال لو غرفة واحدة */
+}
+
+/* لو في غرفة واحدة بس، الكارت ما ياخدش العرض كله */
+.room-card {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 20px;
+    max-width: 600px; /* عرض أقصى للكارت عشان ما يتمدش */
+    width: 100%; /* عشان ياخد العرض المتاح بس مش أكتر من max-width */
+}
+
+/* للتحكم في عدد الكروت في الصف على الشاشات الكبيرة */
+@media (min-width: 1200px) {
+    .rooms-list {
+        grid-template-columns: repeat(2, minmax(300px, 600px)); /* ما يزيدش عن كارتين في الصف */
+    }
+}
+
+    .room-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+.room-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.room-details {
+    flex: 1;
+    color: #2c3e50;
+}
+
+    .room-details h3 {
+        margin: 0 0 10px;
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    .room-details p {
+        margin: 5px 0;
+        font-size: 16px;
+        color: #34495e;
+    }
+
+.room-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.button-nr {
+    background-color: #E2C275; /* ذهبي للزر الأساسي */
+    border-radius: 100px;
+    box-shadow: rgba(226, 194, 117, 0.2) 0 -25px 18px -14px inset, rgba(226, 194, 117, 0.15) 0 1px 2px, rgba(226, 194, 117, 0.15) 0 2px 4px, rgba(226, 194, 117, 0.15) 0 4px 8px, rgba(226, 194, 117, 0.15) 0 8px 16px, rgba(226, 194, 117, 0.15) 0 16px 32px;
+    color: #5A3E14; /* بني داكن */
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 120px;
+}
+
+    .button-nr:hover {
+        box-shadow: rgba(226, 194, 117, 0.35) 0 -25px 18px -14px inset, rgba(226, 194, 117, 0.25) 0 1px 2px, rgba(226, 194, 117, 0.25) 0 2px 4px, rgba(226, 194, 117, 0.25) 0 4px 8px, rgba(226, 194, 117, 0.25) 0 8px 16px, rgba(226, 194, 117, 0.25) 0 16px 32px;
+        transform: scale(1.05) rotate(-1deg);
+    }
+
+.btn-update-ah {
+    background-color: #4CAF50; /* أخضر */
+    box-shadow: rgba(76, 175, 80, 0.2) 0 -25px 18px -14px inset, rgba(76, 175, 80, 0.15) 0 1px 2px, rgba(76, 175, 80, 0.15) 0 2px 4px, rgba(76, 175, 80, 0.15) 0 4px 8px, rgba(76, 175, 80, 0.15) 0 8px 16px, rgba(76, 175, 80, 0.15) 0 16px 32px;
+    color: #fff;
+}
+
+    .btn-update-ah:hover {
+        box-shadow: rgba(76, 175, 80, 0.35) 0 -25px 18px -14px inset, rgba(76, 175, 80, 0.25) 0 1px 2px, rgba(76, 175, 80, 0.25) 0 2px 4px, rgba(76, 175, 80, 0.25) 0 4px 8px, rgba(76, 175, 80, 0.25) 0 8px 16px, rgba(76, 175, 80, 0.25) 0 16px 32px;
+        transform: scale(1.05) rotate(-1deg);
+    }
+
+.details-btn {
+    background-color: #2196F3; /* أزرق */
+    box-shadow: rgba(33, 150, 243, 0.2) 0 -25px 18px -14px inset, rgba(33, 150, 243, 0.15) 0 1px 2px, rgba(33, 150, 243, 0.15) 0 2px 4px, rgba(33, 150, 243, 0.15) 0 4px 8px, rgba(33, 150, 243, 0.15) 0 8px 16px, rgba(33, 150, 243, 0.15) 0 16px 32px;
+    color: #fff;
+}
+
+    .details-btn:hover {
+        box-shadow: rgba(33, 150, 243, 0.35) 0 -25px 18px -14px inset, rgba(33, 150, 243, 0.25) 0 1px 2px, rgba(33, 150, 243, 0.25) 0 2px 4px, rgba(33, 150, 243, 0.25) 0 4px 8px, rgba(33, 150, 243, 0.25) 0 8px 16px, rgba(33, 150, 243, 0.25) 0 16px 32px;
+        transform: scale(1.05) rotate(-1deg);
+    }
+
+.btn-del-ah {
+    background-color: #F44336; /* أحمر */
+    box-shadow: rgba(244, 67, 54, 0.2) 0 -25px 18px -14px inset, rgba(244, 67, 54, 0.15) 0 1px 2px, rgba(244, 67, 54, 0.15) 0 2px 4px, rgba(244, 67, 54, 0.15) 0 4px 8px, rgba(244, 67, 54, 0.15) 0 8px 16px, rgba(244, 67, 54, 0.15) 0 16px 32px;
+    color: #fff;
+}
+
+    .btn-del-ah:hover {
+        box-shadow: rgba(244, 67, 54, 0.35) 0 -25px 18px -14px inset, rgba(244, 67, 54, 0.25) 0 1px 2px, rgba(244, 67, 54, 0.25) 0 2px 4px, rgba(244, 67, 54, 0.25) 0 4px 8px, rgba(244, 67, 54, 0.25) 0 8px 16px, rgba(244, 67, 54, 0.25) 0 16px 32px;
+        transform: scale(1.05) rotate(-1deg);
+    }
+
+.btn-book {
+    background-color: #28a745; /* أخضر للحجز */
+    box-shadow: rgba(40, 167, 69, 0.2) 0 -25px 18px -14px inset, rgba(40, 167, 69, 0.15) 0 1px 2px, rgba(40, 167, 69, 0.15) 0 2px 4px, rgba(40, 167, 69, 0.15) 0 4px 8px, rgba(40, 167, 69, 0.15) 0 8px 16px, rgba(40, 167, 69, 0.15) 0 16px 32px;
+    color: #fff;
+}
+
+    .btn-book:hover {
+        box-shadow: rgba(40, 167, 69, 0.35) 0 -25px 18px -14px inset, rgba(40, 167, 69, 0.25) 0 1px 2px, rgba(40, 167, 69, 0.25) 0 2px 4px, rgba(40, 167, 69, 0.25) 0 4px 8px, rgba(40, 167, 69, 0.25) 0 8px 16px, rgba(40, 167, 69, 0.25) 0 16px 32px;
+        transform: scale(1.05) rotate(-1deg);
+    }
+
+.btn-renew {
+    background-color: #ff9800; /* برتقالي */
+    box-shadow: rgba(255, 152, 0, 0.2) 0 -25px 18px -14px inset, rgba(255, 152, 0, 0.15) 0 1px 2px, rgba(255, 152, 0, 0.15)
+}
+
+.rooms-owner-unauthorized-background-unique {
+    background-color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

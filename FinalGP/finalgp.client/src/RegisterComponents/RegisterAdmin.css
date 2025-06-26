@@ -1,0 +1,137 @@
+/** {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}*/
+
+/* Container for the registration page */
+.register-container-admin{
+    display: flex;
+    margin-top:90px;
+    height: 100vh;
+}
+
+/* Registration form section */
+.register-form-admin {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background: #fff;
+}
+
+/* Logo styling (optional) */
+.logo {
+    padding: 0;
+    width: 250px;
+    margin-bottom: 2px;
+}
+
+/* Header styling */
+/*h2 {
+    margin-bottom: 20px;
+    color: #000000 !important;
+}*/
+
+/* Form styling */
+form {
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Input field styling */
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Button styling */
+.register-button {
+    background-color: #E2C275;
+    border-radius: 50px;
+    box-shadow: rgba(226, 194, 117, 0.3) 0 -25px 18px -14px inset, rgba(226, 194, 117, 0.2) 0 1px 2px, rgba(226, 194, 117, 0.2) 0 2px 4px, rgba(226, 194, 117, 0.2) 0 4px 8px, rgba(226, 194, 117, 0.2) 0 8px 16px, rgba(226, 194, 117, 0.2) 0 16px 32px;
+    color: #5A3E14;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system, system-ui, Roboto, sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-top: 10px;
+}
+
+    /* Button hover effect */
+    .register-button:hover {
+        box-shadow: rgba(226, 194, 117, 0.5) 0 -25px 18px -14px inset, rgba(226, 194, 117, 0.3) 0 1px 2px, rgba(226, 194, 117, 0.3) 0 2px 4px, rgba(226, 194, 117, 0.3) 0 4px 8px, rgba(226, 194, 117, 0.3) 0 8px 16px, rgba(226, 194, 117, 0.3) 0 16px 32px;
+        transform: scale(1.05) rotate(-1deg);
+    }
+
+/* Paragraph styling */
+p {
+    margin-top: 10px;
+}
+
+    /* Link styling within paragraph */
+    p a {
+        color: black !important;
+        text-decoration: none;
+    }
+
+        p a:hover {
+            text-decoration: underline;
+        }
+
+/* Background image section */
+.register-image-admin{
+    flex: 1;
+    background: url("../assets/bg2.jpeg") no-repeat center center/cover;
+    height: 100vh;
+}
+
+/* Gender box and label (if needed for future use) */
+.gender-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+
+.genderLabel {
+    color: black !important;
+    margin-bottom: 5px;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.error {
+    color: #ff4d4d;
+    background: rgba(255, 77, 77, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.unauthorized-background {
+    background-color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

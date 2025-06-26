@@ -1,0 +1,100 @@
+/* src/components/StripePayment.css */
+.stripe-payment-container {
+    max-width: 450px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: "Arial", sans-serif;
+    margin-top:120px;
+}
+
+    .stripe-payment-container h2 {
+        font-size: 24px;
+        color: #333;
+        margin-bottom: 25px;
+        font-weight: 600;
+    }
+
+    .stripe-payment-container label {
+        font-size: 14px;
+        color: #555;
+        text-align: left;
+        font-weight: 500;
+        margin-bottom: 8px;
+        display: block;
+    }
+
+.card-element {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fafafa;
+    margin-bottom: 15px;
+}
+
+.stripe-payment-container input {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #fafafa;
+    margin-bottom: 15px;
+}
+
+.error {
+    color: red;
+    font-size: 0.8em;
+    margin-top: 5px;
+    text-align: left;
+}
+
+.success {
+    color: green;
+    font-size: 1em;
+    margin-top: 5px;
+    text-align: left;
+}
+
+.pay-btn {
+    background-color: #E2C275;
+    border-radius: 50px;
+    box-shadow: rgba(226, 194, 117, 0.3) 0 -25px 18px -14px inset, rgba(226, 194, 117, 0.2) 0 1px 2px, rgba(226, 194, 117, 0.2) 0 2px 4px, rgba(226, 194, 117, 0.2) 0 4px 8px, rgba(226, 194, 117, 0.2) 0 8px 16px, rgba(226, 194, 117, 0.2) 0 16px 32px;
+    color: #5A3E14;
+    cursor: pointer;
+    font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.pay-btn :hover {
+    box-shadow: rgba(226, 194, 117, 0.5) 0 -25px 18px -14px inset, rgba(226, 194, 117, 0.3) 0 1px 2px, rgba(226, 194, 117, 0.3) 0 2px 4px, rgba(226, 194, 117, 0.3) 0 4px 8px, rgba(226, 194, 117, 0.3) 0 8px 16px, rgba(226, 194, 117, 0.3) 0 16px 32px;
+    transform: scale(1.05) rotate(-1deg);
+}
+
+.stripe-payment-unauthorized-background-unique {
+    background-color: #ffffff;
+    min-height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

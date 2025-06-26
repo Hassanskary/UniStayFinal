@@ -1,0 +1,163 @@
+﻿.user-bookings-container {
+    min-height: 100vh;
+    background-color: #f4f7fa; /* لون الخلفية من الأول */
+    background-image: url("../../assets/back_g.png"); /* صورة الخلفية */
+    background-size: cover; /* يجعل الصورة بحجمها الطبيعي بدون تمدد */
+    background-position: center top;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    padding: 40px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100vw; /* عرض كامل */
+}
+
+    .user-bookings-container h2 {
+        text-align: center;
+        color: #2c3e50;
+        margin-top: 90px; /* من الأول */
+        margin-bottom: 30px;
+        font-size: 2.5rem;
+        
+        letter-spacing: 1.5px;
+        z-index: 10; /* من الأول */
+        position: relative; /* من الأول */
+    }
+
+.bookings-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: center; /* من الأول */
+    flex-wrap: wrap; /* من الأول لضمان التوافق */
+}
+.no-bookings {
+    color: #7f8c8d;
+}
+.booking-card {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    width: calc(50% - 20px); /* من الأول لضمان عرض بطاقتين في الصف */
+    max-width: 600px; /* من الأول */
+    margin-top: 10px; /* من الأول */
+}
+
+    .booking-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    }
+
+    .booking-card p {
+        margin: 10px 0;
+        color: #34495e;
+        font-size: 1rem;
+    }
+
+        .booking-card p strong {
+            color: #2c3e50;
+            margin-right: 5px;
+        }
+
+.booking-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px; /* من الأول */
+}
+
+.button-mang {
+    background-color: #E2C275; /* اللون الأساسي من الأول */
+    border-radius: 50px;
+    box-shadow: rgba(226, 194, 117, 0.3) 0 -25px 18px -14px inset, rgba(226, 194, 117, 0.2) 0 1px 2px, rgba(226, 194, 117, 0.2) 0 2px 4px, rgba(226, 194, 117, 0.2) 0 4px 8px, rgba(226, 194, 117, 0.2) 0 8px 16px, rgba(226, 194, 117, 0.2) 0 16px 32px;
+    color: #5A3E14;
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+    .button-mang:hover {
+        box-shadow: rgba(226, 194, 117, 0.5) 0 -25px 18px -14px inset, rgba(226, 194, 117, 0.3) 0 1px 2px, rgba(226, 194, 117, 0.3) 0 2px 4px, rgba(226, 194, 117, 0.3) 0 4px 8px, rgba(226, 194, 117, 0.3) 0 8px 16px, rgba(226, 194, 117, 0.3) 0 16px 32px;
+        transform: scale(1.05) rotate(-1deg);
+    }
+
+.booking-show-btn {
+    background-color: #4CAF50; /* أخضر من الأول */
+    color: #fff;
+    border-radius: 50px;
+    box-shadow: rgba(76, 175, 80, 0.3) 0 -25px 18px -14px inset, rgba(76, 175, 80, 0.2) 0 1px 2px, rgba(76, 175, 80, 0.2) 0 2px 4px, rgba(76, 175, 80, 0.2) 0 4px 8px, rgba(76, 175, 80, 0.2) 0 8px 16px, rgba(76, 175, 80, 0.2) 0 16px 32px;
+    padding: 7px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    transition: all 250ms;
+}
+
+    .booking-show-btn:hover {
+        box-shadow: rgba(76, 175, 80, 0.5) 0 -25px 18px -14px inset, rgba(76, 175, 80, 0.3) 0 1px 2px, rgba(76, 175, 80, 0.3) 0 2px 4px, rgba(76, 175, 80, 0.3) 0 4px 8px, rgba(76, 175, 80, 0.3) 0 8px 16px, rgba(76, 175, 80, 0.3) 0 16px 32px;
+        transform: scale(1.05) rotate(-1deg);
+    }
+
+
+.loading, .error, .no-bookings {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #7f8c8d; /* من الأول */
+    margin-top: 50px;
+}
+
+.error {
+    color: #e74c3c;
+}
+
+@media (max-width: 768px) {
+    .booking-card {
+        width: 90%; /* من الأول */
+    }
+}
+
+.manage-bookings-owner-unauthorized-background-unique {
+    background-color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.no-bookings-message {
+    background: white;
+    padding: 20px 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.151);
+    font-size: 1.2rem;
+    color: #5e5e5ea8;
+    text-align: center;
+}
+
+.no-bookings-box {
+    background-color: #fff;
+    padding: 20px 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+    .no-bookings-box h3 {
+        margin: 0;
+        font-size: 1.5rem;
+        color: #333;
+    }

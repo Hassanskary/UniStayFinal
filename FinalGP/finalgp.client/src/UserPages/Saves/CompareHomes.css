@@ -1,0 +1,215 @@
+﻿.saved-homes-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+   
+}
+.savedh-body {
+    background-image: url("../../assets/back_g.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    padding: 0;
+    padding-top: 90px;
+    margin: 0;
+    padding-bottom: 50px;
+    font-family: 'CerebriSans-Regular', -apple-system, system-ui, Roboto, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    box-sizing: border-box;
+}
+
+
+    .saved-homes-container h2 {
+        margin-bottom: 24px;
+        font-size: 24px;
+        text-align: center;
+    }
+
+.property-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 24px;
+}
+
+.property-card {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+    background: #fff;
+}
+
+    .property-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    }
+
+.property-image-container {
+    position: relative;
+    height: 0;
+    padding-bottom: 66.67%; /* 3:2 aspect ratio */
+    overflow: hidden;
+}
+
+.property-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.remove-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider-controls {
+    position: relative; /* Keep this to position arrows relative to this container */
+    width: 100%; /* Ensure it takes full width of parent */
+}
+
+    .slider-controls .arrow-btn {
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 5px;
+        position: absolute; /* Position arrows absolutely within photo-slider */
+        top: 50%; /* Center vertically */
+        transform: translateY(-50%); /* Adjust for vertical centering */
+    }
+
+    .slider-controls .arrow-img {
+        width: 25px !important;
+        height: 25px !important;
+    }
+
+    .slider-controls .arrow-btn:hover .arrow-img {
+        opacity: 0.8;
+    }
+
+    .slider-controls .arrow-left {
+        left: 10px; /* Position left arrow 10px from the left edge */
+    }
+
+    .slider-controls .arrow-right {
+        right: 10px; /* Position right arrow 10px from the right edge */
+    }
+.slider-controls {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 16px;
+    margin-bottom: 16px;
+}
+
+
+
+.property-details {
+    padding: 16px;
+}
+
+.property-title {
+    font-size: 18px;
+    margin: 0 0 4px 0;
+    color: #222;
+    font-weight: 500;
+}
+
+.property-location {
+    color: #717171;
+    font-size: 14px;
+    margin: 0 0 8px 0;
+}
+
+.property-meta {
+    display: flex;
+    align-items: center;
+    color: #717171;
+    font-size: 14px;
+}
+
+.beds {
+    margin-right: 4px;
+}
+
+.dot {
+    margin: 0 4px;
+}
+
+.star {
+    color: #FF385C;
+    margin-right: 2px;
+}
+
+.new-tag {
+    color: #FF385C;
+    font-weight: 500;
+}
+.clear-all {
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+}
+.clear-all-saves {
+    background-color: #E2C275; /* اللون الأساسي */
+    border-radius: 50px;
+    box-shadow: rgba(226, 194, 117, 0.3) 0 -25px 18px -14px inset, rgba(226, 194, 117, 0.2) 0 1px 2px, rgba(226, 194, 117, 0.2) 0 2px 4px, rgba(226, 194, 117, 0.2) 0 4px 8px, rgba(226, 194, 117, 0.2) 0 8px 16px, rgba(226, 194, 117, 0.2) 0 16px 32px;
+    color: #5A3E14; /* لون النص */
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.clear-all-saves:hover {
+    box-shadow: rgba(226, 194, 117, 0.5) 0 -25px 18px -14px inset, rgba(226, 194, 117, 0.3) 0 1px 2px, rgba(226, 194, 117, 0.3) 0 2px 4px, rgba(226, 194, 117, 0.3) 0 4px 8px, rgba(226, 194, 117, 0.3) 0 8px 16px, rgba(226, 194, 117, 0.3) 0 16px 32px;
+    transform: scale(1.05) rotate(-1deg);
+}
+
+
+.no-homes {
+    text-align: center;
+    color: #717171;
+    margin-top: 40px;
+}
+
+.compare-owner-unauthorized-background-unique {
+    background-color: #ffffff;
+    min-height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

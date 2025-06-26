@@ -1,0 +1,41 @@
+.sort-label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #1f2937;
+    font-family: 'Inter', sans-serif;
+    margin-right: 10px;
+}
+
+.select-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.sort-select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    color: #111827;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+    border-radius: 9999px;
+    padding: 12px 18px;
+    border: 2px solid #e5e7eb;
+    min-width: 180px;
+    transition: background-color 0.2s ease, box-shadow 0.3s ease;
+}
+
+    .sort-select:hover,
+    .sort-select:focus {
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+    }
+
+.select-icon {
+    position: absolute;
+    right: 12px;
+    pointer-events: none;
+    color: #4b5563;
+}

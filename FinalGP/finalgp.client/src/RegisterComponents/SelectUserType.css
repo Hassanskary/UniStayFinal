@@ -1,0 +1,206 @@
+
+/** {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background: url('../assets/login_back.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.form-box {
+    position: relative;
+    width: 400px;
+    padding: 20px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.164);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.json-icon {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.8em;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.button-group {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}*/
+
+/* زرار بنفس التصميم المطلوب */
+/*.button-62 {
+    background: linear-gradient(to bottom right, #FDD273, #DB592A);
+    border: 0;
+    border-radius: 12px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 2.5;
+    outline: transparent;
+    padding: 0 1rem;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow 0.2s ease-in-out;
+    user-select: none;
+    white-space: nowrap;
+    width: 100px;
+}
+
+    .button-62:not([disabled]):focus,
+    .button-62:not([disabled]):hover {
+        box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5), -0.125rem -0.125rem 1rem rgba(239, 71, 101, 0.5), 0.125rem 0.125rem 1rem rgba(255, 154, 90, 0.5);
+    }*/
+/* إعادة ضبط القيم الافتراضية */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* حاوية تسجيل الدخول */
+.login-container {
+    display: flex;
+    height: 100vh;
+}
+
+/* الجزء الخاص بالفورم */
+.login-form {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background: #fff;
+}
+
+.logo {
+    width: 300px; /* حجم اللوجو */
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+form {
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+/* زر استرجاع كلمة المرور */
+.forgot-password, .register-button {
+    background: none;
+    border: none;
+    color: #000000;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+    .forgot-password:hover, .register-button:hover {
+        text-decoration: underline;
+    }
+
+/* تنسيق النص أسفل الفورم */
+p {
+    margin-top: 10px;
+}
+
+    p button {
+        color: #000000;
+        text-decoration: none;
+    }
+
+/* الجزء الخاص بالصورة الخلفية */
+.login-image {
+    flex: 1;
+    background: url("../assets/your-background-image2.jpeg") no-repeat center center/cover;
+    height: 100vh;
+}
+
+/* CSS */
+
+
+/* CSS */
+.button-33 {
+    background-color: #E2C275; /* اللون الأساسي */
+    border-radius: 50px;
+    box-shadow: rgba(226, 194, 117, 0.3) 0 -25px 18px -14px inset, rgba(226, 194, 117, 0.2) 0 1px 2px, rgba(226, 194, 117, 0.2) 0 2px 4px, rgba(226, 194, 117, 0.2) 0 4px 8px, rgba(226, 194, 117, 0.2) 0 8px 16px, rgba(226, 194, 117, 0.2) 0 16px 32px;
+    color: #5A3E14; /* لون النص داكن ليظهر بوضوح */
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+    .button-33:hover {
+        box-shadow: rgba(226, 194, 117, 0.5) 0 -25px 18px -14px inset, rgba(226, 194, 117, 0.3) 0 1px 2px, rgba(226, 194, 117, 0.3) 0 2px 4px, rgba(226, 194, 117, 0.3) 0 4px 8px, rgba(226, 194, 117, 0.3) 0 8px 16px, rgba(226, 194, 117, 0.3) 0 16px 32px;
+        transform: scale(1.05) rotate(-1deg);
+    }  
+/* ضبط أيقونة Lottie */
+.json-icon {
+    width: 250px; /* نفس حجم اللوجو السابق */
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* ضبط الأزرار في صفحة اختيار المستخدم */
+.button-group {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+/* تحسين أزرار الاختيار */
+.button-33 {
+    min-width: 150px; /* توحيد حجم الأزرار */
+    padding: 10px 25px; /* زيادة حجم الزر */
+    font-size: 16px; /* تحسين وضوح النص */
+}
+

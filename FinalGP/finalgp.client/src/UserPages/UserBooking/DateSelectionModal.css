@@ -1,0 +1,109 @@
+﻿
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 320px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+    .modal-content h3 {
+        margin-bottom: 15px;
+    }
+
+    .modal-content div {
+        margin: 10px 0;
+    }
+
+    .modal-content label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+
+    .modal-content input {
+        width: 100%;
+        padding: 6px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+.modal-content-b {
+    background-color: #E2C275; /* اللون الأساسي */
+    border-radius: 50px;
+    box-shadow: rgba(226, 194, 117, 0.3) 0 -25px 18px -14px inset, rgba(226, 194, 117, 0.2) 0 1px 2px, rgba(226, 194, 117, 0.2) 0 2px 4px, rgba(226, 194, 117, 0.2) 0 4px 8px, rgba(226, 194, 117, 0.2) 0 8px 16px, rgba(226, 194, 117, 0.2) 0 16px 32px;
+    color: #5A3E14; /* لون النص داكن ليظهر بوضوح */
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+    padding: 7px 20px;
+    margin: 8px 5px;
+   
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+    .modal-content-b :hover {
+        box-shadow: rgba(226, 194, 117, 0.5) 0 -25px 18px -14px inset, rgba(226, 194, 117, 0.3) 0 1px 2px, rgba(226, 194, 117, 0.3) 0 2px 4px, rgba(226, 194, 117, 0.3) 0 4px 8px, rgba(226, 194, 117, 0.3) 0 8px 16px, rgba(226, 194, 117, 0.3) 0 16px 32px;
+        transform: scale(1.05) rotate(-1deg);
+    }
+
+.btn-ok {
+    background-color: #4CAF50; /* أخضر */
+    color: #fff; /* أبيض */
+    box-shadow: rgba(76, 175, 80, 0.3) 0 -25px 18px -14px inset, rgba(76, 175, 80, 0.2) 0 1px 2px, rgba(76, 175, 80, 0.2) 0 2px 4px, rgba(76, 175, 80, 0.2) 0 4px 8px, rgba(76, 175, 80, 0.2) 0 8px 16px, rgba(76, 175, 80, 0.2) 0 16px 32px;
+}
+
+    .btn-ok:hover {
+        box-shadow: rgba(76, 175, 80, 0.5) 0 -25px 18px -14px inset, rgba(76, 175, 80, 0.3) 0 1px 2px, rgba(76, 175, 80, 0.3) 0 2px 4px, rgba(76, 175, 80, 0.3) 0 4px 8px, rgba(76, 175, 80, 0.3) 0 8px 16px, rgba(76, 175, 80, 0.3) 0 16px 32px;
+        transform: scale(1.05) rotate(-1deg);
+    }
+
+.btn-can{
+    background-color: #F44336;
+    color: #fff;
+    box-shadow: rgba(244, 67, 54, 0.3) 0 -25px 18px -14px inset, rgba(244, 67, 54, 0.2) 0 1px 2px, rgba(244, 67, 54, 0.2) 0 2px 4px, rgba(244, 67, 54, 0.2) 0 4px 8px, rgba(244, 67, 54, 0.2) 0 8px 16px, rgba(244, 67, 54, 0.2) 0 16px 32px;
+}
+
+    .btn-can:hover {
+        box-shadow: rgba(244, 67, 54, 0.5) 0 -25px 18px -14px inset, rgba(244, 67, 54, 0.3) 0 1px 2px, rgba(244, 67, 54, 0.3) 0 2px 4px, rgba(244, 67, 54, 0.3) 0 4px 8px, rgba(244, 67, 54, 0.3) 0 8px 16px, rgba(244, 67, 54, 0.3) 0 16px 32px;
+        transform: scale(1.05) rotate(-1deg);
+    }
+
+/*    .modal-content button {
+        margin: 8px 5px;
+        padding: 6px 12px;
+        border: none;
+        border-radius: 4px;
+        background-color: #007bff;
+        color: white;
+        cursor: pointer;
+    }
+
+        .modal-content button:hover {
+            background-color: #0056b3;
+        }*/
+
+.error {
+    color: red;
+    margin-bottom: 10px;
+}

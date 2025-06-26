@@ -1,0 +1,412 @@
+﻿
+.homepage {
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.hero-logo-container {
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-logo {
+    all: unset;
+    width: 700px;
+    height: auto;
+    display: block;
+    object-fit: contain;
+}
+
+.hero-section {
+    background: url("../assets/your-background-image.jpg") no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    overflow: visible !important; /* تأكيد السماح للمحتوى بالظهور خارج حدود العنصر */
+    z-index: 1; /* إضافة z-index لإنشاء سياق تكديس جديد */
+}
+
+
+.homepage .logo-uh img:not(.navbar .logo img) {
+    display: none;
+}
+
+
+.search-bar {
+    display: flex;
+    top: 200px;
+    background: rgba(255, 246, 246, 0.812);
+    padding: 10px;
+    border-radius: 20px;
+    width: 50%;
+    align-items: center;
+    height: 45px;
+    position: relative; /* هام لإتاحة وضع القائمة بشكل مطلق */
+    z-index: 1990; /* تم التعديل هنا: قيمة z-index أقل من الـ Navbar */
+}
+
+    .search-bar input {
+        border: none;
+        background: transparent;
+        color: #111827;
+        font-size: 18px;
+        width: 100%;
+        padding: 5px;
+        outline: none;
+    }
+
+    .search-bar button {
+        border: none;
+        background: transparent;
+        cursor: pointer;
+        color: white;
+        padding: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+.search-icon {
+    width: 35px;
+    height: 35px;
+    flex-shrink: 0;
+}
+
+
+
+.scroll-icon {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+}
+
+.homes-section {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 20px !important;
+    padding: 20px !important;
+}
+
+.home-card {
+    display: flex;
+    flex-direction: column;
+    background: white !important;
+    border-radius: 15px !important;
+    overflow: hidden !important;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2) !important;
+    text-align: left !important;
+    font-family: Arial, sans-serif;
+    position: relative;
+    width: 100%;
+}
+
+.home-image {
+    transition: opacity 0.5s ease-in-out;
+}
+
+.home-card img {
+    width: 100% !important;
+    height: 250px !important;
+    object-fit: cover !important;
+    border-radius: 15px 15px 0 0 !important;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.home-info {
+    padding: 15px !important;
+    color: #333 !important;
+}
+
+    .home-info h3 {
+        margin: 5px 0 !important;
+        font-size: 18px !important;
+        font-weight: bold;
+    }
+
+    .home-info p {
+        font-size: 14px !important;
+        color: #666 !important;
+    }
+
+.rating {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffcc00;
+}
+
+.price {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* قسم About Us */
+.about-us-section,
+.contact-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: black;
+    padding: 50px;
+}
+
+    .about-us-section .about-us-text,
+    .contact-text {
+        all: unset;
+        width: 50%;
+        color: white !important;
+    }
+
+.about-us-image,
+.contact-icons {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+    .about-us-image img,
+    .contact-icons img {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    /* الأيقونات */
+    .contact-icons a {
+        margin: 0 10px;
+    }
+
+    .contact-icons img {
+        width: 40px;
+        height: 40px;
+    }
+
+.photo-slider {
+    position: relative;
+    width: 100%;
+}
+
+    .photo-slider .arrow-btn {
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 5px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .photo-slider .arrow-img {
+        width: 25px !important;
+        height: 25px !important;
+    }
+
+    .photo-slider .arrow-btn:hover .arrow-img {
+        opacity: 0.8;
+    }
+
+    .photo-slider .arrow-left {
+        left: 10px; /* Position left arrow 10px from the left edge */
+    }
+
+    .photo-slider .arrow-right {
+        right: 10px; /* Position right arrow 10px from the right edge */
+    }
+
+
+
+/* The heart icon in top-right corner */
+.save-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    color: white;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+}
+
+.favorite-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #f7d138;
+    color: #000;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.contact-section h2 {
+    color: white !important;
+}
+
+.about-us-section h2 {
+    color: white !important;
+}
+
+.save-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.heart-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'white\' stroke-width=\'2\' stroke-linecap=\'round\' stroke-linejoin=\'round\'><path d=\'M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z\'/></svg>");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 5px;
+    transition: all 0.3s ease;
+}
+
+    .heart-icon.saved {
+        background-image: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 24 24\' fill=\'red\' stroke=\'red\' stroke-width=\'2\' stroke-linecap=\'round\' stroke-linejoin=\'round\'><path d=\'M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z\'/></svg>");
+    }
+
+.custom-toast {
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 12px;
+    padding: 16px 24px;
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    color: white;
+    border: none;
+}
+
+/* Success - أخضر */
+.success-toast {
+    background-color: #28a745;
+}
+
+/* Error - أحمر */
+.error-toast {
+    background-color: #dc3545;
+}
+
+/* Warning - برتقالي */
+.warning-toast {
+    background-color: #ffc107;
+    color: #000; /* علشان النص يبان على الخلفية الصفراء */
+}
+
+/* ===== Dropdown suggestions for the search bar ===== */
+.search-suggestions {
+    position: absolute;
+    top: 100%; /* Position it right below the search bar */
+    left: 0;
+    width: 100%;
+    max-height: 250px;
+    overflow-y: auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    z-index: 1990; /* تم التعديل هنا: قيمة z-index أقل من الـ Navbar */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+    .search-suggestions .suggestion-item {
+        padding: 10px;
+        cursor: pointer;
+        border-bottom: 1px solid #eee;
+        font-size: 14px;
+        color: #333;
+    }
+
+        .search-suggestions .suggestion-item:last-child {
+            border-bottom: none;
+        }
+
+        .search-suggestions .suggestion-item:hover {
+            background-color: #f2f2f2;
+        }
+
+/* Pagination Styles */
+.pagination {
+    display: flex;
+    flex-direction: row; /* ترتيب أفقي */
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+    gap: 15px; /* زيادة المسافة بين الأزرار */
+}
+
+.pagination-arrow {
+    background: none;
+    border: none;
+    font-size: 18px; /* زيادة حجم الخط */
+    cursor: pointer;
+    color: #333;
+    padding: 8px 15px; /* زيادة الحجم */
+}
+
+    .pagination-arrow:disabled {
+        color: #ccc;
+        cursor: not-allowed;
+    }
+
+.pagination-number {
+    width: 40px; /* زيادة العرض */
+    height: 40px; /* زيادة الارتفاع */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #333;
+    border-radius: 6px; /* زيادة الـ border-radius */
+    background: #fff;
+    font-size: 18px; /* زيادة حجم الخط */
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+    .pagination-number:hover {
+        background: #f0f0f0;
+    }
+
+    .pagination-number.active {
+        background: #333;
+        color: #fff;
+        border-color: #333;
+    }
+
+.filter-section-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    background: #f9f9f9;
+    border-radius: 0px;
+    position: relative; /* تم التعديل هنا: إنشاء سياق تكديس جديد */
+    z-index: 0; /* Lower z-index */
+}
+
+body, html {
+    overflow: visible !important;
+}
+
+
+

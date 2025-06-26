@@ -1,0 +1,211 @@
+﻿
+.add-room-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url("../../assets/back_g.png");
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+  }
+  
+  .add-room-box {
+    width: 80%;
+    max-width: 800px;
+    background: rgba(255, 255, 255);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(8px);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .add-room-box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: white;
+  }
+  
+  .form-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+  
+  .full-width {
+    grid-column: span 2;
+  }
+  
+  .form-grid input,
+  .form-grid select {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    font-size: 16px;
+  }
+
+
+
+.button-nr-n{
+    background-color: #E2C275; /* اللون الأساسي */
+    border-radius: 50px;
+    box-shadow: rgba(226, 194, 117, 0.3) 0 -25px 18px -14px inset, rgba(226, 194, 117, 0.2) 0 1px 2px, rgba(226, 194, 117, 0.2) 0 2px 4px, rgba(226, 194, 117, 0.2) 0 4px 8px, rgba(226, 194, 117, 0.2) 0 8px 16px, rgba(226, 194, 117, 0.2) 0 16px 32px;
+    color: #5A3E14; /* لون النص داكن ليظهر بوضوح */
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button-nr-n:hover {
+    box-shadow: rgba(226, 194, 117, 0.5) 0 -25px 18px -14px inset, rgba(226, 194, 117, 0.3) 0 1px 2px, rgba(226, 194, 117, 0.3) 0 2px 4px, rgba(226, 194, 117, 0.3) 0 4px 8px, rgba(226, 194, 117, 0.3) 0 8px 16px, rgba(226, 194, 117, 0.3) 0 16px 32px;
+    transform: scale(1.05) rotate(-1deg);
+}
+  .file-upload label {
+    display: block;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 5px;
+  }
+  
+  .photo-preview-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+  }
+
+.photo-preview {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    overflow: hidden;
+    position: relative;
+    
+}
+  
+  .add-photo-btn {
+    width: 80px;
+    height: 80px;
+    border: 2px dashed white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    color: black !important;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background 0.3s;
+  }
+  
+  .add-photo-btn:hover {
+    background: black;
+  }
+  .form-checkbox {
+    display: flex;
+    align-items: center; 
+  
+    color: white;
+    font-size: 16px;
+    margin-top: 10px; 
+    white-space: nowrap; 
+  }
+
+.half-width::placeholder, .full-width::placeholder {
+    color: white;
+}
+
+.file-upload {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.file-label {
+    font-weight: bold;
+    color: white;
+}
+
+.custom-file-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed black;
+    border-radius: 8px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: background 0.3s ease;
+    text-align: center;
+    width: 250px;
+}
+
+    .custom-file-input:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+    }
+
+    .custom-file-input input {
+        display: none;
+    }
+
+    .custom-file-input label {
+        color: white;
+        font-size: 14px;
+        cursor: pointer;
+    }
+
+.file-list {
+    margin-top: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 8px;
+    border-radius: 5px;
+}
+
+    .file-list p {
+        color: black;
+        font-size: 12px;
+        margin: 2px 0;
+    }
+
+.error-box {
+    margin: 10px 0;
+    padding: 10px;
+    background: rgba(255, 0, 0, 0.1);
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+.error-text {
+    color: red;
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+
+.add-room-owner-unauthorized-background-unique {
+    background-color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

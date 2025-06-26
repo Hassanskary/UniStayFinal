@@ -1,0 +1,77 @@
+﻿
+.reported-homes-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url("../../assets/back_g.png");
+    background-size: cover;
+    background-position: center;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+}
+
+    .reported-homes-container h2 {
+        text-align: center;
+        color: #fff;
+        font-size: 32px;
+        margin-bottom: 30px;
+    }
+
+.reported-homes-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    max-width: 900px;
+}
+
+/* كود تكبير حجم المستطيلات */
+.home-card {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 12px;
+    padding: 20px;
+    width: 450px; /* زيادة العرض */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+}
+
+    .home-card:hover {
+        transform: scale(1.05);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    }
+
+    .home-card h3 {
+        font-size: 22px;
+        color: #333;
+        margin-bottom: 8px;
+    }
+
+    .home-card p {
+        font-size: 18px;
+        color: #555;
+    }
+
+/* كود تصميم مربع "No Reports Found" */
+.no-reports-card {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 12px;
+    padding: 20px;
+    width: 450px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+}
+
+.report-unauthorized-background-unique {
+    background-color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

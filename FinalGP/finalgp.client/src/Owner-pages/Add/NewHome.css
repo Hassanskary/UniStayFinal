@@ -1,0 +1,313 @@
+
+/* خلفية وتنسيق أساسي للصفحة */
+.add-home-container {
+    background-image: url("../../assets/back_g.png");
+    background-size: cover; /* يجعل الصورة بحجمها الطبيعي بدون تمدد */
+    background-position: center;
+    background-repeat: repeat-y;
+    width: 100vw; /* خلي العرض حسب ما تحبي */
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 100px;
+   
+}
+
+.add-home-box {
+    margin-top: 30px;
+    width: 90%;
+    max-width: 600px;
+    background: rgba(255, 255, 255);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(5px);
+    display: flex;
+    flex-direction: column;
+    height:fit-content;
+}
+
+    .add-home-box h2 {
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 26px;
+        color: black;
+    }
+
+.error-message {
+    color: red;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* تنسيق الفورم */
+.form-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    width: 100%;
+    max-width: 600px;
+}
+
+    .form-grid input,
+    .form-grid select,
+    .form-grid textarea {
+        background: rgba(255, 255, 255, 0.3) !important;
+        width: 100%;
+        min-width: 0;
+        padding: 10px;
+        border-radius: 8px;
+        border: 1px solid black !important;
+        
+        color: black !important;
+        box-sizing: border-box;
+    }
+
+.half-width {
+    grid-column: span 1;
+}
+
+.full-width {
+    grid-column: span 2;
+}
+
+.file-upload,
+.inline-group {
+    margin-top: 10px;
+    grid-column: span 2;
+}
+
+
+/* تنسيق النصوص */
+label,
+.form-grid input::placeholder,
+.form-grid select,
+.form-grid textarea,
+.form-grid textarea::placeholder {
+    color: black;
+}
+
+/* قائمة المدن المنسدلة */
+.homeType option {
+    background-color: lightgray;
+    color: black;
+}
+
+/* مجموعة خيارات الجنس */
+.gender-options {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+    .gender-options label {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+/* تنسيق حقل الوصف */
+textarea[name="description"] {
+    min-height: 120px;
+    resize: none;
+}
+
+/* تنسيق رفع الصور */
+.file-upload label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+/* تنسيق حاوية الصور لتظهر جنب بعض */
+.photo-preview-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+}
+
+/* تنسيق الصور المصغرة */
+.photo-preview {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    overflow: hidden;
+    position: relative;
+}
+
+/* تنسيق زر الحذف */
+.remove-photo {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .remove-photo:hover {
+        background: red;
+    }
+
+/* مربع شفاف لإضافة الصور */
+.add-photo-box {
+    width: 80px;
+    height: 80px;
+    border: 2px dashed rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.3);
+    transition: background 0.3s ease;
+}
+
+    .add-photo-box:hover {
+        background: rgba(255, 255, 255, 0.1);
+        color: white;
+    }
+
+
+/* نافذة منبثقة للخريطة */
+.map-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999; /* تأكد أن النافذة تظهر فوق كل العناصر */
+}
+
+.map-modal-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    width: 90%;
+    position: relative;
+    color: #000; /* النص باللون الأسود داخل النافذة */
+}
+
+    .map-modal-content h3 {
+        margin-top: 0;
+        margin-bottom: 10px;
+        color: #333;
+    }
+
+.map-picker-container {
+    width: 100%;
+    height: 400px; /* يمكنك تغيير الارتفاع حسب رغبتك */
+    position: relative;
+    margin-bottom: 10px;
+}
+
+/* زر إغلاق الخريطة */
+.close-map-btn {
+    margin-top: 10px;
+   
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+   
+
+.button-nh {
+    background-color: #E2C275; /* اللون الأساسي */
+    border-radius: 50px;
+    box-shadow: rgba(226, 194, 117, 0.3) 0 -25px 18px -14px inset, rgba(226, 194, 117, 0.2) 0 1px 2px, rgba(226, 194, 117, 0.2) 0 2px 4px, rgba(226, 194, 117, 0.2) 0 4px 8px, rgba(226, 194, 117, 0.2) 0 8px 16px, rgba(226, 194, 117, 0.2) 0 16px 32px;
+    color: #5A3E14; /* لون النص داكن ليظهر بوضوح */
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+    .button-nh:hover {
+        box-shadow: rgba(226, 194, 117, 0.5) 0 -25px 18px -14px inset, rgba(226, 194, 117, 0.3) 0 1px 2px, rgba(226, 194, 117, 0.3) 0 2px 4px, rgba(226, 194, 117, 0.3) 0 4px 8px, rgba(226, 194, 117, 0.3) 0 8px 16px, rgba(226, 194, 117, 0.3) 0 16px 32px;
+        transform: scale(1.05) rotate(-1deg);
+    }
+
+/* Existing styles remain unchanged */
+
+/* Error message styling for form fields */
+.error-message {
+    color: black;
+    font-size: 18px;
+    margin-top: 4px;
+    display: block;
+}
+
+
+.custom-toast {
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 12px;
+    padding: 16px 24px;
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    color: white;
+    border: none;
+}
+
+/* Success - أخضر */
+.success-toast {
+    background-color: #28a745;
+}
+
+/* Error - أحمر */
+.error-toast {
+    background-color: #dc3545;
+}
+
+/* Warning - برتقالي */
+.warning-toast {
+    background-color: #ffc107;
+    color: #000; /* علشان النص يبان على الخلفية الصفراء */
+}
+.Toastify__toast-container {
+    z-index: 10000 !important;
+}
+.Toastify__toast-container {
+    z-index: 10000 !important;
+}
+
+.add-home-owner-unauthorized-background-unique {
+    background-color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

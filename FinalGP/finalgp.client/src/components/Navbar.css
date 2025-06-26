@@ -1,0 +1,408 @@
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90px; /* تحديد ارتفاع ثابت */
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* تأكد من أن العناصر في المنتصف */
+    padding: 0 30px; /* تقليل التأثير على الارتفاع */
+    background: rgba(0, 0, 0);
+    backdrop-filter: blur(10px);
+    z-index: 2000;
+}
+
+    .navbar .logo {
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        height: 100%; /* تأكد أن اللوجو لا يؤثر على الارتفاع */
+    }
+
+        .navbar .logo img {
+            height: 60px !important; /* حجم اللوجو ثابت */
+            width: auto !important;
+        }
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+    .nav-links li {
+        position: relative;
+    }
+
+    .nav-links a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: color 0.3s ease-in-out;
+        position: relative;
+        padding: 10px 0; /* يمنع تأثر النص بارتفاع اللوجو */
+    }
+
+        /* ✅ تأثير الخط السفلي */
+        .nav-links a::after {
+            content: "";
+            display: block;
+            width: 0;
+            height: 2px;
+            transition: width 0.3s ease-in-out, background-color 0.3s ease-in-out;
+            margin-top: 5px;
+            position: absolute;
+            left: 0;
+            bottom: -2px;
+        }
+
+.owner-link:hover::after {
+    width: 100%;
+    background-color: #E2C275;
+}
+
+.admin-link:hover::after {
+    width: 100%;
+    background-color: #E2C275;
+}
+
+.user-link:hover::after {
+    width: 100%;
+    background-color: #E2C275;
+}
+
+.default-link:hover::after {
+    width: 100%;
+    background-color: #E2C275;
+}
+
+/* ✅ تغيير لون التابات عند التمرير */
+.nav-link {
+    color: white;
+    transition: color 0.3s ease-in-out;
+}
+
+.owner-link:hover {
+    color: #E2C275;
+}
+
+.admin-link:hover {
+    color: #E2C275;
+}
+
+.user-link:hover {
+    color: #E2C275; /* اللون الأساسي */
+}
+
+.default-link:hover {
+    color: #E2C275;
+}
+
+/* Buttons for Sign Up and Login */
+.nav-link.default-link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    .nav-link.default-link:hover {
+        /* background-color: rgba(255, 255, 255, 0.2);*/
+        color: #E2C275;
+    }
+
+.nav-logout {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition-duration: .3s;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.199);
+    background-color: #E2C275;
+}
+
+/* plus sign */
+.sign {
+    width: 100%;
+    transition-duration: .3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .sign svg {
+        width: 17px;
+    }
+
+        .sign svg path {
+            fill: white;
+        }
+/* text */
+.text {
+    position: absolute;
+    right: 0%;
+    width: 0%;
+    opacity: 0;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 600;
+    transition-duration: .3s;
+}
+/* hover effect on button width */
+.nav-logout:hover {
+    width: 125px;
+    border-radius: 40px;
+    transition-duration: .3s;
+}
+
+    .nav-logout:hover .sign {
+        width: 30%;
+        transition-duration: .3s;
+        padding-left: 20px;
+    }
+    /* hover effect button's text */
+    .nav-logout:hover .text {
+        opacity: 1;
+        width: 70%;
+        transition-duration: .3s;
+        padding-right: 10px;
+    }
+/* button click effect*/
+.nav-logout:active {
+    transform: translate(2px,2px);
+}
+/* Welcome user text style */
+.nav-welcome {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 10px; /* some spacing before the logout button */
+}
+/* Welcome user text style */
+.nav-welcome {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 10px; /* some spacing before the logout button */
+}
+
+.navbar-icon {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+
+/* chat-counter.css */
+
+/* الحاوية اللي بتحتوي الأيقونة والعداد */
+.chat-icon-container {
+    position: relative;
+    display: inline-block;
+}
+
+/* تصميم العداد */
+.chat-counter {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background-color: #ff0000; /* لون أحمر كما في الصورة */
+    color: #fff; /* نص أبيض */
+    border-radius: 50%; /* دائرة */
+    width: 18px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: bold;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); /* ظل خفيف للأناقة */
+}
+
+
+
+/* التحريك */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+
+
+/* Notification Icon & Modal Styles - unique classes to avoid override */
+.navbar__icon-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    padding: 0.25rem;
+}
+
+.navbar__notif-btn .navbar__icon-img {
+    width: 24px;
+    height: 24px;
+}
+
+.navbar__badge {
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    background-color: #e74c3c;
+    color: white;
+    font-size: 0.65rem;
+    font-weight: bold;
+    border-radius: 50%;
+    padding: 2px 5px;
+    line-height: 1;
+}
+
+.notif-modal__backdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: flex-end;
+    z-index: 1000;
+}
+
+.notif-modal {
+    background: white;
+    width: 320px;
+    max-height: 80vh;
+    margin: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.notif-modal__title {
+    margin: 0;
+    padding: 1rem;
+    font-size: 1.1rem;
+    border-bottom: 1px solid #ddd;
+}
+
+.notif-modal__list {
+    list-style: none;
+    margin: 0;
+    padding: 0.5rem 0;
+    overflow-y: auto;
+    flex: 1;
+}
+
+.notif-modal__item {
+    display: flex;
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid #f0f0f0;
+    transition: background 0.2s;
+}
+
+    .notif-modal__item:hover {
+        background: #f9f9f9;
+    }
+
+.notif-modal__avatar {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: #ccc;
+    margin-right: 0.75rem;
+    flex-shrink: 0;
+}
+
+.notif-modal__content {
+    flex: 1;
+}
+
+.notif-modal__message {
+    margin: 0;
+    font-size: 0.95rem;
+    color: #333;
+}
+
+.notif-modal__time {
+    font-size: 0.75rem;
+    color: #999;
+}
+
+.notif-modal__empty {
+    padding: 1rem;
+    text-align: center;
+    color: #666;
+}
+
+.notif-modal__show-more {
+    background: none;
+    border: none;
+    padding: 0.75rem;
+    font-size: 0.9rem;
+    cursor: pointer;
+    border-top: 1px solid #ddd;
+}
+
+.notification-icon-container {
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    padding: 0.25rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .notification-icon-container img {
+        width: 24px;
+        height: 24px;
+        filter: brightness(0) invert(1);
+        transition: transform 0.2s ease-in-out;
+    }
+
+    .notification-icon-container:hover img {
+        transform: scale(1.1);
+    }
+
+.notification-counter {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background-color: #ff0000; /* لون أحمر كما في الصورة */
+    color: #fff; /* نص أبيض */
+    border-radius: 50%; /* دائرة */
+    width: 18px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: bold;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); /* ظل خفيف للأناقة */
+}

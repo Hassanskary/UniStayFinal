@@ -1,0 +1,154 @@
+﻿
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* حاوية تسجيل الدخول */
+.register-container-user {
+    display: flex;
+    height: fit-content;
+}
+
+/* الجزء الخاص بالفورم */
+.register-form-user {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background: #fff;
+    height: 904px;
+}
+
+.logo {
+    padding: 0px;
+    width: 250px; /* حجم اللوجو */
+    margin-bottom: 2px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #000000 !important;
+}
+
+form {
+    width: 100%;
+    max-width: 300px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+/* زر استرجاع كلمة المرور */
+.forgot-password, .register-button {
+    background: none;
+    border: none;
+    color: #000000;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+    .forgot-password:hover, .register-button:hover {
+        text-decoration: underline;
+    }
+
+/* تنسيق النص أسفل الفورم */
+p {
+    margin-top: 10px;
+}
+
+    p button {
+        color: #000000;
+        text-decoration: none;
+    }
+
+/* الجزء الخاص بالصورة الخلفية */
+.register-image {
+
+    flex: 1;
+    background: url("../assets/bg2.jpeg") no-repeat center center/cover;
+    height: auto;
+}
+
+/* CSS */
+
+
+/* CSS */
+.button-33 {
+    background-color: #E2C275;  
+    border-radius: 50px;
+    box-shadow: rgba(226, 194, 117, 0.3) 0 -25px 18px -14px inset, rgba(226, 194, 117, 0.2) 0 1px 2px, rgba(226, 194, 117, 0.2) 0 2px 4px, rgba(226, 194, 117, 0.2) 0 4px 8px, rgba(226, 194, 117, 0.2) 0 8px 16px, rgba(226, 194, 117, 0.2) 0 16px 32px;
+    color: #5A3E14;  
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+    .button-33:hover {
+        box-shadow: rgba(226, 194, 117, 0.5) 0 -25px 18px -14px inset, rgba(226, 194, 117, 0.3) 0 1px 2px, rgba(226, 194, 117, 0.3) 0 2px 4px, rgba(226, 194, 117, 0.3) 0 4px 8px, rgba(226, 194, 117, 0.3) 0 8px 16px, rgba(226, 194, 117, 0.3) 0 16px 32px;
+        transform: scale(1.05) rotate(-1deg);
+    }
+
+
+.gender-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+
+.genderLabel {
+    color: black !important;
+    margin-bottom: 5px;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.gender-options {
+    display: flex;
+    align-items: center;
+    gap: 15px;   
+}
+
+.genderInput {
+    margin-right: 5px;
+}
+
+.gender-box label {
+    color: black !important;
+    font-size: 1em;
+}
+.error {
+    color: #ff4d4d;
+    background: rgba(255, 77, 77, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 10px;
+}
+

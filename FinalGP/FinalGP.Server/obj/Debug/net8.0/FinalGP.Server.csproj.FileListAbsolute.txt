@@ -1,0 +1,620 @@
+E:\MyProjectAPI\FinalGP\FinalGP.Server\obj\Debug\net8.0\FinalGP.Server.csproj.AssemblyReference.cache
+E:\MyProjectAPI\FinalGP\FinalGP.Server\obj\Debug\net8.0\spa.proxy.json
+E:\MyProjectAPI\FinalGP\FinalGP.Server\obj\Debug\net8.0\FinalGP.Server.GeneratedMSBuildEditorConfig.editorconfig
+E:\MyProjectAPI\FinalGP\FinalGP.Server\obj\Debug\net8.0\FinalGP.Server.AssemblyInfoInputs.cache
+E:\MyProjectAPI\FinalGP\FinalGP.Server\obj\Debug\net8.0\FinalGP.Server.AssemblyInfo.cs
+E:\MyProjectAPI\FinalGP\FinalGP.Server\obj\Debug\net8.0\FinalGP.Server.csproj.CoreCompileInputs.cache
+E:\MyProjectAPI\FinalGP\FinalGP.Server\obj\Debug\net8.0\FinalGP.Server.MvcApplicationPartsAssemblyInfo.cs
+E:\MyProjectAPI\FinalGP\FinalGP.Server\obj\Debug\net8.0\FinalGP.Server.MvcApplicationPartsAssemblyInfo.cache
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\appsettings.Development.json
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\appsettings.json
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\FinalGP.Server.staticwebassets.endpoints.json
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\spa.proxy.json
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\FinalGP.Server.staticwebassets.runtime.json
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\FinalGP.Server.exe
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\FinalGP.Server.deps.json
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\FinalGP.Server.runtimeconfig.json
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\FinalGP.Server.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\FinalGP.Server.pdb
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\Azure.Core.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\Azure.Identity.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\Humanizer.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Google.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.AspNetCore.SpaProxy.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.OpenApi.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\Mono.TextTemplating.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\System.CodeDom.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\System.Composition.Convention.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\System.Composition.Hosting.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\System.Composition.Runtime.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\System.Composition.TypedParts.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\System.Drawing.Common.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\System.Memory.Data.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\System.Runtime.Caching.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\System.Security.Permissions.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\System.Windows.Extensions.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\obj\Debug\net8.0\scopedcss\bundle\FinalGP.Server.styles.css
+E:\MyProjectAPI\FinalGP\FinalGP.Server\obj\Debug\net8.0\staticwebassets.build.json
+E:\MyProjectAPI\FinalGP\FinalGP.Server\obj\Debug\net8.0\staticwebassets.development.json
+E:\MyProjectAPI\FinalGP\FinalGP.Server\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+E:\MyProjectAPI\FinalGP\FinalGP.Server\obj\Debug\net8.0\staticwebassets\msbuild.FinalGP.Server.Microsoft.AspNetCore.StaticWebAssets.props
+E:\MyProjectAPI\FinalGP\FinalGP.Server\obj\Debug\net8.0\staticwebassets\msbuild.FinalGP.Server.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+E:\MyProjectAPI\FinalGP\FinalGP.Server\obj\Debug\net8.0\staticwebassets\msbuild.build.FinalGP.Server.props
+E:\MyProjectAPI\FinalGP\FinalGP.Server\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.FinalGP.Server.props
+E:\MyProjectAPI\FinalGP\FinalGP.Server\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.FinalGP.Server.props
+E:\MyProjectAPI\FinalGP\FinalGP.Server\obj\Debug\net8.0\staticwebassets.pack.json
+E:\MyProjectAPI\FinalGP\FinalGP.Server\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+E:\MyProjectAPI\FinalGP\FinalGP.Server\obj\Debug\net8.0\FinalGP..E3708D72.Up2Date
+E:\MyProjectAPI\FinalGP\FinalGP.Server\obj\Debug\net8.0\FinalGP.Server.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\obj\Debug\net8.0\refint\FinalGP.Server.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\obj\Debug\net8.0\FinalGP.Server.pdb
+E:\MyProjectAPI\FinalGP\FinalGP.Server\obj\Debug\net8.0\FinalGP.Server.genruntimeconfig.cache
+E:\MyProjectAPI\FinalGP\FinalGP.Server\obj\Debug\net8.0\ref\FinalGP.Server.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\Newtonsoft.Json.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\bin\Debug\net8.0\System.Net.WebSockets.WebSocketProtocol.dll
+E:\MyProjectAPI\FinalGP\FinalGP.Server\obj\Debug\net8.0\FinalGP.Server.sourcelink.json
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\appsettings.json
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\FinalGP.Server.staticwebassets.endpoints.json
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\spa.proxy.json
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\FinalGP.Server.staticwebassets.runtime.json
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\FinalGP.Server.exe
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\FinalGP.Server.deps.json
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\FinalGP.Server.runtimeconfig.json
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\FinalGP.Server.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\FinalGP.Server.pdb
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\Azure.Core.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\Azure.Identity.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\Humanizer.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Google.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.AspNetCore.SpaProxy.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.OpenApi.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\Mono.TextTemplating.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\Newtonsoft.Json.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\System.CodeDom.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\System.Composition.Convention.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\System.Composition.Hosting.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\System.Composition.Runtime.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\System.Composition.TypedParts.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\System.Memory.Data.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\System.Net.WebSockets.WebSocketProtocol.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\System.Runtime.Caching.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\obj\Debug\net8.0\FinalGP.Server.csproj.AssemblyReference.cache
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\obj\Debug\net8.0\spa.proxy.json
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\obj\Debug\net8.0\FinalGP.Server.GeneratedMSBuildEditorConfig.editorconfig
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\obj\Debug\net8.0\FinalGP.Server.AssemblyInfoInputs.cache
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\obj\Debug\net8.0\FinalGP.Server.AssemblyInfo.cs
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\obj\Debug\net8.0\FinalGP.Server.csproj.CoreCompileInputs.cache
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\obj\Debug\net8.0\FinalGP.Server.MvcApplicationPartsAssemblyInfo.cs
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\obj\Debug\net8.0\FinalGP.Server.MvcApplicationPartsAssemblyInfo.cache
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\obj\Debug\net8.0\FinalGP.Server.sourcelink.json
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\obj\Debug\net8.0\scopedcss\bundle\FinalGP.Server.styles.css
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\obj\Debug\net8.0\staticwebassets.build.json
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\obj\Debug\net8.0\staticwebassets.development.json
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\obj\Debug\net8.0\staticwebassets\msbuild.FinalGP.Server.Microsoft.AspNetCore.StaticWebAssets.props
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\obj\Debug\net8.0\staticwebassets\msbuild.FinalGP.Server.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\obj\Debug\net8.0\staticwebassets\msbuild.build.FinalGP.Server.props
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.FinalGP.Server.props
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.FinalGP.Server.props
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\obj\Debug\net8.0\staticwebassets.pack.json
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\obj\Debug\net8.0\FinalGP..E3708D72.Up2Date
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\obj\Debug\net8.0\FinalGP.Server.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\obj\Debug\net8.0\refint\FinalGP.Server.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\obj\Debug\net8.0\FinalGP.Server.pdb
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\obj\Debug\net8.0\FinalGP.Server.genruntimeconfig.cache
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\obj\Debug\net8.0\ref\FinalGP.Server.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\Google.Apis.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\Google.Apis.Auth.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\Google.Apis.Core.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\System.Management.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Management.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\appsettings.json
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\FinalGP.Server.staticwebassets.endpoints.json
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\spa.proxy.json
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\FinalGP.Server.staticwebassets.runtime.json
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\FinalGP.Server.exe
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\FinalGP.Server.deps.json
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\FinalGP.Server.runtimeconfig.json
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\FinalGP.Server.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\FinalGP.Server.pdb
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\Azure.Core.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\Azure.Identity.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\Google.Apis.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\Google.Apis.Auth.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\Google.Apis.Core.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\Humanizer.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Google.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.AspNetCore.SpaProxy.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.OpenApi.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\Mono.TextTemplating.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\Newtonsoft.Json.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\System.CodeDom.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\System.Composition.Convention.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\System.Composition.Hosting.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\System.Composition.Runtime.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\System.Composition.TypedParts.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\System.Drawing.Common.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\System.Management.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\System.Memory.Data.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\System.Net.WebSockets.WebSocketProtocol.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\System.Runtime.Caching.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\System.Security.Permissions.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\System.Windows.Extensions.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Management.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\obj\Debug\net8.0\FinalGP.Server.csproj.AssemblyReference.cache
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\obj\Debug\net8.0\spa.proxy.json
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\obj\Debug\net8.0\FinalGP.Server.GeneratedMSBuildEditorConfig.editorconfig
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\obj\Debug\net8.0\FinalGP.Server.AssemblyInfoInputs.cache
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\obj\Debug\net8.0\FinalGP.Server.AssemblyInfo.cs
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\obj\Debug\net8.0\FinalGP.Server.csproj.CoreCompileInputs.cache
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\obj\Debug\net8.0\FinalGP.Server.MvcApplicationPartsAssemblyInfo.cs
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\obj\Debug\net8.0\FinalGP.Server.MvcApplicationPartsAssemblyInfo.cache
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\obj\Debug\net8.0\FinalGP.Server.sourcelink.json
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\obj\Debug\net8.0\scopedcss\bundle\FinalGP.Server.styles.css
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\obj\Debug\net8.0\staticwebassets.build.json
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\obj\Debug\net8.0\staticwebassets.development.json
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\obj\Debug\net8.0\staticwebassets\msbuild.FinalGP.Server.Microsoft.AspNetCore.StaticWebAssets.props
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\obj\Debug\net8.0\staticwebassets\msbuild.FinalGP.Server.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\obj\Debug\net8.0\staticwebassets\msbuild.build.FinalGP.Server.props
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.FinalGP.Server.props
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.FinalGP.Server.props
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\obj\Debug\net8.0\staticwebassets.pack.json
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\obj\Debug\net8.0\FinalGP..E3708D72.Up2Date
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\obj\Debug\net8.0\FinalGP.Server.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\obj\Debug\net8.0\refint\FinalGP.Server.dll
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\obj\Debug\net8.0\FinalGP.Server.pdb
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\obj\Debug\net8.0\FinalGP.Server.genruntimeconfig.cache
+F:\GraduationProject\MyProjectAPIL 26-5\FinalGP\FinalGP.Server\obj\Debug\net8.0\ref\FinalGP.Server.dll
+E:\MyProjectAPIL\FinalGP\FinalGP.Server\bin\Debug\net8.0\Stripe.net.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\appsettings.json
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\FinalGP.Server.staticwebassets.endpoints.json
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\spa.proxy.json
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\FinalGP.Server.staticwebassets.runtime.json
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\FinalGP.Server.exe
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\FinalGP.Server.deps.json
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\FinalGP.Server.runtimeconfig.json
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\FinalGP.Server.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\FinalGP.Server.pdb
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\Azure.Core.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\Azure.Identity.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\Google.Apis.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\Google.Apis.Auth.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\Google.Apis.Core.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\Humanizer.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Google.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.AspNetCore.SpaProxy.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.OpenApi.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\Mono.TextTemplating.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\Newtonsoft.Json.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\Stripe.net.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\System.CodeDom.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\System.Composition.Convention.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\System.Composition.Hosting.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\System.Composition.Runtime.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\System.Composition.TypedParts.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\System.Management.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\System.Memory.Data.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\System.Net.WebSockets.WebSocketProtocol.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\System.Runtime.Caching.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Management.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\obj\Debug\net8.0\FinalGP.Server.csproj.AssemblyReference.cache
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\obj\Debug\net8.0\spa.proxy.json
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\obj\Debug\net8.0\FinalGP.Server.GeneratedMSBuildEditorConfig.editorconfig
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\obj\Debug\net8.0\FinalGP.Server.AssemblyInfoInputs.cache
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\obj\Debug\net8.0\FinalGP.Server.AssemblyInfo.cs
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\obj\Debug\net8.0\FinalGP.Server.csproj.CoreCompileInputs.cache
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\obj\Debug\net8.0\FinalGP.Server.MvcApplicationPartsAssemblyInfo.cs
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\obj\Debug\net8.0\FinalGP.Server.MvcApplicationPartsAssemblyInfo.cache
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\obj\Debug\net8.0\FinalGP.Server.sourcelink.json
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\obj\Debug\net8.0\scopedcss\bundle\FinalGP.Server.styles.css
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\obj\Debug\net8.0\staticwebassets.build.json
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\obj\Debug\net8.0\staticwebassets.development.json
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\obj\Debug\net8.0\staticwebassets\msbuild.FinalGP.Server.Microsoft.AspNetCore.StaticWebAssets.props
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\obj\Debug\net8.0\staticwebassets\msbuild.FinalGP.Server.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\obj\Debug\net8.0\staticwebassets\msbuild.build.FinalGP.Server.props
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.FinalGP.Server.props
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.FinalGP.Server.props
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\obj\Debug\net8.0\staticwebassets.pack.json
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\obj\Debug\net8.0\FinalGP..E3708D72.Up2Date
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\obj\Debug\net8.0\FinalGP.Server.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\obj\Debug\net8.0\refint\FinalGP.Server.dll
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\obj\Debug\net8.0\FinalGP.Server.pdb
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\obj\Debug\net8.0\FinalGP.Server.genruntimeconfig.cache
+F:\GraduationProject\MyProjectAPIL 6-14\FinalGP\FinalGP.Server\obj\Debug\net8.0\ref\FinalGP.Server.dll

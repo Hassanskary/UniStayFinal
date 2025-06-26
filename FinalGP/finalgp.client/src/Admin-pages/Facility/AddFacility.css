@@ -1,0 +1,223 @@
+
+.addaddfacility-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url("../../assets/back_g.png") !important;
+    background-size: cover !important;
+    background-position: center !important;
+    padding-top: 100px;
+}
+
+.addfacility-box {
+    width: 100%;
+    max-width: 600px;
+    background: rgba(255, 255, 255);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(7px);
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease-in-out;
+    min-height: fit-content;
+    margin-bottom: 40px;
+    box-sizing: border-box;
+}
+
+    .addfacility-box:hover {
+        transform: scale(1.02);
+    }
+
+    .addfacility-box h2 {
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 26px;
+        color: white;
+        font-weight: bold;
+    }
+
+.addfacility-form {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+    height: fit-content;
+    width: 100%;
+}
+
+    .addfacility-form input {
+        width: 100%;
+        padding: 8px;
+        border-radius: 8px;
+        border: 1px solid #ccc;
+        background: white;
+        color: black;
+        font-size: 14px;
+        box-sizing: border-box;
+        transition: border 0.3s ease-in-out;
+    }
+
+        .addfacility-form input:focus {
+            border: 1px solid #000000;
+            outline: none;
+            background: white;
+        }
+
+.delete-addfacility-btn {
+    padding: 12px 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: white;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+    .add-addfacility-btn:hover,
+    .delete-addfacility-btn:hover {
+        transform: scale(1.05);
+    }
+
+.addfacility-list {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.addfacility-list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    border-radius: 8px;
+    background: rgba(187, 187, 187, 0.451);
+    margin-bottom: 10px;
+    transition: background 0.3s;
+}
+
+    .addfacility-list-item:hover {
+        background: rgba(255, 255, 255, 0.2);
+    }
+
+    .addfacility-list-item span {
+        color: black;
+        font-weight: bold;
+    }
+
+.icons {
+    display: flex;
+    gap: 10px;
+}
+
+    .icons .icon {
+        width: 35px;
+        height: 35px;
+        cursor: pointer;
+        transition: transform 0.2s ease-in-out;
+    }
+
+        .icons .icon:hover {
+            transform: scale(1.2);
+        }
+
+    .icons .edit {
+        color: #4CAF50;
+    }
+
+    .icons .delete {
+        color: #E74C3C;
+    }
+
+    .icons .save {
+        color: #3498DB;
+    }
+
+.edit-input {
+    background: transparent !important;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    color: black;
+    padding: 8px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+    .edit-input:focus {
+        border-color: black;
+        outline: none;
+    }
+
+.add-button-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.add-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.empty-icon {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    display: block;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    gap: 10px;
+    height: 40px;
+}
+
+.addfacility-input {
+    flex: 1;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    background: rgba(0, 0, 0, 0.4);
+    color: white;
+    font-size: 14px;
+    box-sizing: border-box;
+    height: 40px;
+    line-height: 1.5;
+}
+
+    .addfacility-input:focus {
+        border: 1px solid #A5A686;
+        outline: none;
+        background: rgba(0, 0, 0, 0.6);
+    }
+
+.add-addfacility-btn {
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background: transparent;
+}
+
+    .add-addfacility-btn:hover {
+        transform: scale(1.05);
+    }
+
+.unauthorized-background-unique {
+    background-color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,287 @@
+﻿.report-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.report-modal {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    width: 90%;
+    max-width: 500px;
+    padding: 20px;
+    position: relative;
+    max-height: 90vh;
+    overflow-y: auto;
+    height: auto; /* جعل الارتفاع تلقائي */
+}
+
+.report-modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+    .report-modal-header h2 {
+        margin: 0;
+        font-size: 1.5rem;
+        color: #333;
+    }
+
+.close-modal-btn {
+    background: none;
+    border: none;
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: #888;
+}
+
+    .close-modal-btn:hover {
+        color: #333;
+    }
+
+.report-error-message {
+    background-color: #ffebee;
+    color: #c62828;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.report-success-message {
+    background-color: #e8f5e9;
+    color: #2e7d32;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.report-form {
+    margin-bottom: 20px;
+    height: auto; /* جعل الارتفاع تلقائي */
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+    .form-group label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+        color: #555;
+    }
+
+.report-textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    resize: vertical;
+    font-family: inherit;
+}
+
+.report-submit-btn {
+    background-color: #4CAF50; /* أخضر زي chat-btn */
+    border-radius: 50px;
+    box-shadow: rgba(76, 175, 80, 0.3) 0 -25px 18px -14px inset, rgba(76, 175, 80, 0.2) 0 1px 2px, rgba(76, 175, 80, 0.2) 0 2px 4px, rgba(76, 175, 80, 0.2) 0 4px 8px, rgba(76, 175, 80, 0.2) 0 8px 16px, rgba(76, 175, 80, 0.2) 0 16px 32px;
+    color: #fff; /* أبيض عشان يبان على الأخضر */
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+    .report-submit-btn:hover {
+        box-shadow: rgba(76, 175, 80, 0.5) 0 -25px 18px -14px inset, rgba(76, 175, 80, 0.3) 0 1px 2px, rgba(76, 175, 80, 0.3) 0 2px 4px, rgba(76, 175, 80, 0.3) 0 4px 8px, rgba(76, 175, 80, 0.3) 0 8px 16px, rgba(76, 175, 80, 0.3) 0 16px 32px;
+        transform: scale(1.05) rotate(-1deg);
+    }
+
+.user-reports-section {
+    margin-top: 30px;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
+
+    .user-reports-section h3 {
+        margin-top: 0;
+        font-size: 1.2rem;
+        color: #333;
+        margin-bottom: 15px;
+    }
+
+.user-reports-list {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.user-report-item {
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    padding: 12px;
+    margin-bottom: 10px;
+}
+
+.report-content {
+    margin-bottom: 10px;
+}
+
+    .report-content p {
+        margin: 0 0 8px 0;
+    }
+
+.report-date {
+    font-size: 0.8rem;
+    color: #777;
+    margin-right: 10px;
+}
+
+.report-status {
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding: 3px 8px;
+    border-radius: 10px;
+}
+
+    .report-status.pending {
+        background-color: #fff3e0;
+        color: #e65100;
+    }
+
+    .report-status.resolved {
+        background-color: #e8f5e9;
+        color: #2e7d32;
+    }
+
+    .report-status.rejected {
+        background-color: #f5f5f5;
+        color: #616161;
+    }
+
+.report-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+}
+
+.edit-report-btn, .delete-report-btn {
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    border: none;
+}
+
+.edit-report-btn {
+    
+    color: white;
+}
+
+.delete-report-btn {
+    
+    color: white;
+}
+
+.edit-report-form {
+    margin-top: 10px;
+}
+
+.edit-actions {
+    display: flex;
+    gap: 8px;
+    margin-top: 8px;
+    justify-content: flex-end;
+}
+
+.edit-actions .cancel-editreportt-btn {
+    background-color: #F44336;
+    border-radius: 100px;
+    box-shadow: rgba(244, 67, 54, 0.2) 0 -25px 18px -14px inset, rgba(244, 67, 54, 0.15) 0 1px 2px, rgba(244, 67, 54, 0.15) 0 2px 4px, rgba(244, 67, 54, 0.15) 0 4px 8px, rgba(244, 67, 54, 0.15) 0 8px 16px, rgba(244, 67, 54, 0.15) 0 16px 32px;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.edit-actions .cancel-editreportt-btn:hover {
+    box-shadow: rgba(244, 67, 54, 0.35) 0 -25px 18px -14px inset, rgba(244, 67, 54, 0.25) 0 1px 2px, rgba(244, 67, 54, 0.25) 0 2px 4px, rgba(244, 67, 54, 0.25) 0 4px 8px, rgba(244, 67, 54, 0.25) 0 8px 16px, rgba(244, 67, 54, 0.25) 0 16px 32px;
+    transform: scale(1.05) rotate(-1deg);
+}
+
+.edit-actions .save-editrepoo-btn {
+    background-color: #4CAF50;
+    border-radius: 100px;
+    box-shadow: rgba(76, 175, 80, 0.2) 0 -25px 18px -14px inset, rgba(76, 175, 80, 0.15) 0 1px 2px, rgba(76, 175, 80, 0.15) 0 2px 4px, rgba(76, 175, 80, 0.15) 0 4px 8px, rgba(76, 175, 80, 0.15) 0 8px 16px, rgba(76, 175, 80, 0.15) 0 16px 32px;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.edit-actions .save-editrepoo-btn:hover {
+    box-shadow: rgba(76, 175, 80, 0.35) 0 -25px 18px -14px inset, rgba(76, 175, 80, 0.25) 0 1px 2px, rgba(76, 175, 80, 0.25) 0 2px 4px, rgba(76, 175, 80, 0.25) 0 4px 8px, rgba(76, 175, 80, 0.25) 0 8px 16px, rgba(76, 175, 80, 0.25) 0 16px 32px;
+    transform: scale(1.05) rotate(-1deg);
+}
+
+@media (max-width: 600px) {
+    .report-modal {
+        width: 95%;
+        padding: 15px;
+    }
+}
+.status-and-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 8px;
+}
+
+.report-actions-inline {
+    display: flex;
+    gap: 5px;
+}
+
+.report-content {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}

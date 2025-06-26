@@ -1,0 +1,104 @@
+﻿
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+/* Main Container */
+.edit-profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: url('../../assets/back_g.png') no-repeat center;
+    background-size: cover;
+    padding: 120px;
+}
+
+/* Title */
+.title-edit {
+    font-size: 2em;
+    color: black; /* تغيير لون العنوان إلى الأسود */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Form Box */
+.edit-profile-form {
+    background: white; /* جعل الفورم بيضاء */
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    height: auto; /* جعل الارتفاع تلقائي */
+}
+
+    /* Labels */
+    .edit-profile-form label {
+        font-weight: bold;
+        color: black; /* تغيير لون النص إلى الأسود */
+        align-self: flex-start;
+        margin-top: 10px;
+        font-size: 1em;
+    }
+
+    /* Inputs & Select */
+    .edit-profile-form input,
+    .edit-profile-form select {
+        width: 100%;
+        padding: 12px;
+        margin-top: 5px;
+        border: 1px solid #ccc;
+        background: white;
+        color: black;
+        font-size: 1em;
+        outline: none;
+        border-radius: 8px; /* جعل الحواف مستديرة */
+        transition: border 0.3s ease-in-out;
+    }
+
+        .edit-profile-form input:focus,
+        .edit-profile-form select:focus {
+            border-color: #888;
+        }
+    /* تعديل زرار الفورم */
+    .edit-profile-form button {
+        background-color: #E2C275; /* اللون الأساسي */
+        border-radius: 50px;
+        box-shadow: rgba(226, 194, 117, 0.3) 0 -25px 18px -14px inset, rgba(226, 194, 117, 0.2) 0 1px 2px, rgba(226, 194, 117, 0.2) 0 2px 4px, rgba(226, 194, 117, 0.2) 0 4px 8px, rgba(226, 194, 117, 0.2) 0 8px 16px, rgba(226, 194, 117, 0.2) 0 16px 32px;
+        color: #5A3E14; /* لون النص داكن ليظهر بوضوح */
+        cursor: pointer;
+        display: inline-block;
+        font-family: "Poppins", sans-serif;
+        padding: 12px;
+        width: 100%;
+        text-align: center;
+        text-decoration: none;
+        transition: all 250ms;
+        border: none;
+        font-size: 16px;
+        font-weight: 700;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+    }
+
+        .edit-profile-form button:hover {
+            box-shadow: rgba(226, 194, 117, 0.5) 0 -25px 18px -14px inset, rgba(226, 194, 117, 0.3) 0 1px 2px, rgba(226, 194, 117, 0.3) 0 2px 4px, rgba(226, 194, 117, 0.3) 0 4px 8px, rgba(226, 194, 117, 0.3) 0 8px 16px, rgba(226, 194, 117, 0.3) 0 16px 32px;
+            transform: scale(1.05) rotate(-1deg);
+        }
+
+/* Responsive Design */
+@media (max-width: 480px) {
+    .edit-profile-form {
+        width: 90%;
+    }
+}

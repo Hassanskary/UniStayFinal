@@ -1,0 +1,154 @@
+﻿
+/* Full-screen container */
+.update-room-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100vw;
+    background-image: url("../../assets/back_g.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+
+/* Centered content box */
+.update-room-box {
+    width: 90%;
+    max-width: 650px;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    margin: 90px;
+    align-items: center;
+}
+
+    /* Heading styling */
+    .update-room-box h2 {
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 28px;
+        color: #000;
+        font-weight: 600;
+    }
+
+/* Form grid */
+.form-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    width: 100%;
+    max-width: 600px;
+}
+
+/* Full-width class */
+.full-width {
+    grid-column: span 2;
+}
+
+/* Form inputs */
+.form-grid input,
+.form-grid select,
+.form-grid textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.1);
+    color: #000;
+    font-size: 16px;
+    outline: none;
+}
+
+/* Checkbox styling */
+.form-checkbox {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #000;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* File upload label */
+.file-upload label {
+    display: block;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 5px;
+}
+
+/* Button styling */
+.submit-btn {
+    background-color: #E2C275;
+    border-radius: 50px;
+    box-shadow: rgba(226, 194, 117, 0.3) 0 -25px 18px -14px inset, rgba(226, 194, 117, 0.2) 0 1px 2px, rgba(226, 194, 117, 0.2) 0 2px 4px, rgba(226, 194, 117, 0.2) 0 4px 8px, rgba(226, 194, 117, 0.2) 0 8px 16px, rgba(226, 194, 117, 0.2) 0 16px 32px;
+    color: #5A3E14;
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+    .submit-btn:hover {
+        box-shadow: rgba(226, 194, 117, 0.5) 0 -25px 18px -14px inset, rgba(226, 194, 117, 0.3) 0 1px 2px, rgba(226, 194, 117, 0.3) 0 2px 4px, rgba(226, 194, 117, 0.3) 0 4px 8px, rgba(226, 194, 117, 0.3) 0 8px 16px, rgba(226, 194, 117, 0.3) 0 16px 32px;
+        transform: scale(1.05) rotate(-1deg);
+    }
+
+/* Error and loading */
+.error {
+    color: #dc3545;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.loading {
+    color: #000;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Current photo */
+.current-photo {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.current-room-photo {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+}
+
+/* Error message */
+.error-message {
+    color: #dc3545;
+    font-size: 14px;
+    margin-top: 4px;
+    display: block;
+}
+
+.update-room-owner-unauthorized-background-unique {
+    background-color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

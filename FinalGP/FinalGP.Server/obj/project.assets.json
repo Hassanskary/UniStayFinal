@@ -5479,23 +5479,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\EL-Bustan\\.nuget\\packages\\": {},
+    "C:\\Users\\BLUE LAP\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\GraduationProject\\MyProjectAPIL 6-266\\FinalGP\\FinalGP.Server\\FinalGP.Server.csproj",
+      "projectUniqueName": "C:\\Users\\BLUE LAP\\Source\\Repos\\UniStayFinal\\FinalGP\\FinalGP.Server\\FinalGP.Server.csproj",
       "projectName": "FinalGP.Server",
-      "projectPath": "F:\\GraduationProject\\MyProjectAPIL 6-266\\FinalGP\\FinalGP.Server\\FinalGP.Server.csproj",
-      "packagesPath": "C:\\Users\\EL-Bustan\\.nuget\\packages\\",
-      "outputPath": "F:\\GraduationProject\\MyProjectAPIL 6-266\\FinalGP\\FinalGP.Server\\obj\\",
+      "projectPath": "C:\\Users\\BLUE LAP\\Source\\Repos\\UniStayFinal\\FinalGP\\FinalGP.Server\\FinalGP.Server.csproj",
+      "packagesPath": "C:\\Users\\BLUE LAP\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\BLUE LAP\\Source\\Repos\\UniStayFinal\\FinalGP\\FinalGP.Server\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\EL-Bustan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\BLUE LAP\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -5504,7 +5504,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -5517,13 +5516,7 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.100"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -5605,7 +5598,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

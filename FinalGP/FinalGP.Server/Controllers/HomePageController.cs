@@ -22,27 +22,28 @@ namespace FinalGP.Controllers
             _homeRepository = homeRepository;
         }
         [HttpGet("HomeApproved")]
-    public IActionResult ShowApprovedHomes([FromQuery] int skip = 0, [FromQuery] int take = 12)
-    {
-        var approvedHomes = _homeRepository.Query()
-            .Include(h => h.Photos)
-            .Include(h => h.Ratings)
-            .Include(h => h.Rooms) // Include Rooms to check for at least one room
-            .Where(h => h.Status == HomeApprovalStatus.Approved && h.Rooms.Any()) // Ensure at least one room exists
-            .OrderBy(h => h.Id) // ترتيب ثابت لضمان اتساق الـ Pagination
-            .Skip(skip)
-            .Take(take)
-            .Select(h => new ShowHomesDTO
-            {
-                Id = h.Id,
-                Title = h.Title,
-                City = h.City.ToString(),
-                rate = h.Ratings.Any() ? h.Ratings.Average(r => r.Score) : 0, // Calculate average rate
-                Photos = h.Photos.Select(p => $"{Request.Scheme}://{Request.Host}{p.PhotoUrl}").ToList()
-            })
-            .ToList();
-        return Ok(approvedHomes);
-    }
+        public IActionResult ShowApprovedHomes([FromQuery] int skip = 0, [FromQuery] int take = 12)
+        {
+            var approvedHomes = _homeRepository.Query()
+                .Where(h => h.Status == HomeApprovalStatus.Approved)
+                .Where(h => h.Rooms.Any()) // Check if there are any rooms directly in the query
+                .Include(h => h.Photos)
+                .Include(h => h.Ratings)
+                .OrderBy(h => h.Id) // ترتيب ثابت لضمان اتساق الـ Pagination
+                .Skip(skip)
+                .Take(take)
+                .Select(h => new ShowHomesDTO
+                {
+                    Id = h.Id,
+                    Title = h.Title,
+                    City = h.City.ToString(),
+                    rate = h.Ratings.Any() ? h.Ratings.Average(r => r.Score) : 0, // Calculate average rate
+                    Photos = h.Photos.Select(p => $"{Request.Scheme}://{Request.Host}{p.PhotoUrl}").ToList()
+                })
+                .ToList();
+
+            return Ok(approvedHomes);
+        }
 
         [HttpGet("HomeApprovedCount")]
         public IActionResult GetApprovedHomesCount()

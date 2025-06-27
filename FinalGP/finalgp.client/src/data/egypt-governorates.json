@@ -1,0 +1,788 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Alexandria"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              31.0,
+              24.0
+            ],
+            [
+              31.1,
+              24.2
+            ],
+            [
+              30.9,
+              24.2
+            ],
+            [
+              31.0,
+              24.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Aswan"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              31.1,
+              24.3
+            ],
+            [
+              31.200000000000003,
+              24.5
+            ],
+            [
+              31.0,
+              24.5
+            ],
+            [
+              31.1,
+              24.3
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Asyut"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              31.2,
+              24.6
+            ],
+            [
+              31.3,
+              24.8
+            ],
+            [
+              31.099999999999998,
+              24.8
+            ],
+            [
+              31.2,
+              24.6
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Beheira"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              31.3,
+              24.9
+            ],
+            [
+              31.400000000000002,
+              25.099999999999998
+            ],
+            [
+              31.2,
+              25.099999999999998
+            ],
+            [
+              31.3,
+              24.9
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Beni Suef"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              31.4,
+              25.2
+            ],
+            [
+              31.5,
+              25.4
+            ],
+            [
+              31.299999999999997,
+              25.4
+            ],
+            [
+              31.4,
+              25.2
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cairo"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              31.5,
+              25.5
+            ],
+            [
+              31.6,
+              25.7
+            ],
+            [
+              31.4,
+              25.7
+            ],
+            [
+              31.5,
+              25.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dakahlia"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              31.6,
+              25.8
+            ],
+            [
+              31.700000000000003,
+              26.0
+            ],
+            [
+              31.5,
+              26.0
+            ],
+            [
+              31.6,
+              25.8
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Damietta"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              31.7,
+              26.1
+            ],
+            [
+              31.8,
+              26.3
+            ],
+            [
+              31.599999999999998,
+              26.3
+            ],
+            [
+              31.7,
+              26.1
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Faiyum"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              31.8,
+              26.4
+            ],
+            [
+              31.900000000000002,
+              26.599999999999998
+            ],
+            [
+              31.7,
+              26.599999999999998
+            ],
+            [
+              31.8,
+              26.4
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gharbia"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              31.9,
+              26.7
+            ],
+            [
+              32.0,
+              26.9
+            ],
+            [
+              31.799999999999997,
+              26.9
+            ],
+            [
+              31.9,
+              26.7
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Giza"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.0,
+              27.0
+            ],
+            [
+              32.1,
+              27.2
+            ],
+            [
+              31.9,
+              27.2
+            ],
+            [
+              32.0,
+              27.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ismailia"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.1,
+              27.3
+            ],
+            [
+              32.2,
+              27.5
+            ],
+            [
+              32.0,
+              27.5
+            ],
+            [
+              32.1,
+              27.3
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kafr El Sheikh"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.2,
+              27.6
+            ],
+            [
+              32.300000000000004,
+              27.8
+            ],
+            [
+              32.1,
+              27.8
+            ],
+            [
+              32.2,
+              27.6
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Luxor"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.3,
+              27.9
+            ],
+            [
+              32.4,
+              28.099999999999998
+            ],
+            [
+              32.199999999999996,
+              28.099999999999998
+            ],
+            [
+              32.3,
+              27.9
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Matruh"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.4,
+              28.2
+            ],
+            [
+              32.5,
+              28.4
+            ],
+            [
+              32.3,
+              28.4
+            ],
+            [
+              32.4,
+              28.2
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Minya"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.5,
+              28.5
+            ],
+            [
+              32.6,
+              28.7
+            ],
+            [
+              32.4,
+              28.7
+            ],
+            [
+              32.5,
+              28.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Monufia"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.6,
+              28.8
+            ],
+            [
+              32.7,
+              29.0
+            ],
+            [
+              32.5,
+              29.0
+            ],
+            [
+              32.6,
+              28.8
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "New Valley"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.7,
+              29.1
+            ],
+            [
+              32.800000000000004,
+              29.3
+            ],
+            [
+              32.6,
+              29.3
+            ],
+            [
+              32.7,
+              29.1
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "North Sinai"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.8,
+              29.4
+            ],
+            [
+              32.9,
+              29.599999999999998
+            ],
+            [
+              32.699999999999996,
+              29.599999999999998
+            ],
+            [
+              32.8,
+              29.4
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Port Said"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.9,
+              29.7
+            ],
+            [
+              33.0,
+              29.9
+            ],
+            [
+              32.8,
+              29.9
+            ],
+            [
+              32.9,
+              29.7
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Qalyubia"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.0,
+              30.0
+            ],
+            [
+              33.1,
+              30.2
+            ],
+            [
+              32.9,
+              30.2
+            ],
+            [
+              33.0,
+              30.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Qena"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.1,
+              30.3
+            ],
+            [
+              33.2,
+              30.5
+            ],
+            [
+              33.0,
+              30.5
+            ],
+            [
+              33.1,
+              30.3
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Red Sea"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.2,
+              30.6
+            ],
+            [
+              33.300000000000004,
+              30.8
+            ],
+            [
+              33.1,
+              30.8
+            ],
+            [
+              33.2,
+              30.6
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sharqia"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.3,
+              30.9
+            ],
+            [
+              33.4,
+              31.099999999999998
+            ],
+            [
+              33.199999999999996,
+              31.099999999999998
+            ],
+            [
+              33.3,
+              30.9
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sohag"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.4,
+              31.2
+            ],
+            [
+              33.5,
+              31.4
+            ],
+            [
+              33.3,
+              31.4
+            ],
+            [
+              33.4,
+              31.2
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "South Sinai"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.5,
+              31.5
+            ],
+            [
+              33.6,
+              31.7
+            ],
+            [
+              33.4,
+              31.7
+            ],
+            [
+              33.5,
+              31.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Suez"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.6,
+              31.8
+            ],
+            [
+              33.7,
+              32.0
+            ],
+            [
+              33.5,
+              32.0
+            ],
+            [
+              33.6,
+              31.8
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

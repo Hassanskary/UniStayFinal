@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FinalGP.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+802671f0624ea3763dbeaf4df8720c51660d7f63")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c2edde5827542fdf3b5b353c35bdfca1c8455d13")]
 [assembly: System.Reflection.AssemblyProductAttribute("FinalGP.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FinalGP.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

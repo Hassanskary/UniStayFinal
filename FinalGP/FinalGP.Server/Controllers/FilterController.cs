@@ -70,6 +70,9 @@ namespace FinalGP.Server.Controllers
                     .Where(h => h.Status == HomeApprovalStatus.Approved);
                 _logger.LogInformation("FilterHomes: Initial query built");
 
+                // إضافة شرط للتأكد من وجود غرف على الأقل
+                query = query.Where(h => h.Rooms != null && h.Rooms.Any());
+
                 if (!string.IsNullOrEmpty(search))
                 {
                     _logger.LogInformation("FilterHomes: Applying search filter: {Search}", search);
@@ -124,12 +127,12 @@ namespace FinalGP.Server.Controllers
                         (!homeTypeFilter.HasValue || h.Type == homeTypeFilter.Value) &&
                         (!genderFilter.HasValue || h.Gender == genderFilter.Value) &&
                         (!cityFilter.HasValue || h.City == cityFilter.Value) &&
-                        (h.Rooms == null || !h.Rooms.Any() || h.Rooms.Any(r =>
+                        h.Rooms.Any(r =>
                             (!request.MinPrice.HasValue || r.Price >= request.MinPrice.Value) &&
                             (!request.MaxPrice.HasValue || r.Price <= request.MaxPrice.Value) &&
                             (!request.MinBeds.HasValue || r.NumOfBeds >= request.MinBeds.Value) &&
                             (!request.MaxBeds.HasValue || r.NumOfBeds <= request.MaxBeds.Value)
-                        )));
+                        ));
                     _logger.LogInformation("FilterHomes: After additional filters");
                 }
 

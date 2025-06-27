@@ -1,0 +1,30 @@
+const governoratesCoords = {
+    "Cairo": { lat: 30.0444, lng: 31.2357 },
+    "Alexandria": { lat: 31.2001, lng: 29.9187 },
+    "Giza": { lat: 30.0131, lng: 31.2089 },
+    "Aswan": { lat: 24.0889, lng: 32.8998 },
+    "Minya": { lat: 28.1099, lng: 30.7503 },
+    "Qena": { lat: 26.1551, lng: 32.7160 },
+    "Sohag": { lat: 26.5594, lng: 31.6959 },
+    "Dakahlia": { lat: 31.0364, lng: 31.3807 },
+    "Beheira": { lat: 30.8480, lng: 30.3430 },
+    "Beni Suef": { lat: 29.0744, lng: 31.0978 },
+    "Faiyum": { lat: 29.3102, lng: 30.8418 },
+    "Ismailia": { lat: 30.6043, lng: 32.2723 },
+    "Kafr El Sheikh": { lat: 31.1118, lng: 30.9388 },
+    "Luxor": { lat: 25.6872, lng: 32.6396 },
+    "Matruh": { lat: 31.3525, lng: 27.2453 },
+    "Monufia": { lat: 30.5972, lng: 30.9876 },
+    "New Valley": { lat: 25.4473, lng: 30.5466 },
+    "North Sinai": { lat: 30.3065, lng: 33.6231 },
+    "Port Said": { lat: 31.2653, lng: 32.3019 },
+    "Qalyubia": { lat: 30.1710, lng: 31.2086 },
+    "Red Sea": { lat: 26.7642, lng: 33.9389 },
+    "Sharqia": { lat: 30.7324, lng: 31.7195 },
+    "South Sinai": { lat: 28.1099, lng: 34.2321 },
+    "Suez": { lat: 29.9668, lng: 32.5498 },
+    "Damietta": { lat: 31.4175, lng: 31.8144 },
+    "Asyut": { lat: 27.1809, lng: 31.1837 }
+};
+
+export default governoratesCoords;

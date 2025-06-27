@@ -1,11 +1,19 @@
 ﻿import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
-import Navbar from '../../components/Navbar';
+import Navbar from "../../components/Navbar";
+import {
+    FaEnvelope,
+    FaUser,
+    FaPhone,
+    FaMapMarkerAlt,
+    FaVenusMars,
+    FaIdCard,
+    FaUserCircle
+} from 'react-icons/fa';
+import { MdEdit, MdBook, MdManageAccounts } from 'react-icons/md';
 import "./Profile.css";
-import Swal from "sweetalert2"; // Added for SweetAlert2
 
-// Helper to parse JWT token
 const parseJwt = (token) => {
     if (!token) return null;
     const base64Url = token.split('.')[1];
@@ -31,39 +39,19 @@ const Profile = () => {
     const [error, setError] = useState(null);
     const [userRole, setUserRole] = useState(null);
     const [userId, setUserId] = useState(null);
-    const [isAuthorized, setIsAuthorized] = useState(true); // New state for authorization
 
     useEffect(() => {
         const fetchProfile = async () => {
             try {
-                const token = localStorage.getItem("token");
-                if (!token) {
-                    setIsAuthorized(false);
-                    Swal.fire({
-                        icon: "warning",
-                        title: "Not Authorized",
-                        text: "Please log in to access this page.",
-                        confirmButtonText: "OK",
-                        confirmButtonColor: "#3085d6",
-                    }).then(() => {
-                        navigate("/login");
-                    });
-                    return;
-                }
+                const tokenData = localStorage.getItem("token");
+                if (!tokenData) throw new Error("No token found, please log in.");
 
+                const token = tokenData;
                 const decodedToken = parseJwt(token);
                 const role = decodedToken?.["http://schemas.microsoft.com/ws/2008/06/identity/claims/role"];
                 const id = decodedToken?.sub || decodedToken?.["http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier"];
-                if (!id) throw new Error("User ID not found in token.");
-
                 setUserRole(role);
                 setUserId(id);
-                console.log("User Role:", role); // للتصحيح
-
-                const ownershipResponse = await axios.get(
-                    `https://localhost:7194/api/AccountUser/CheckProfileOwnership/${id}`,
-                    { headers: { Authorization: `Bearer ${token}` } }
-                );
 
                 const response = await axios.get(`https://localhost:7194/api/AccountUser/Profile/${id}`, {
                     headers: { Authorization: `Bearer ${token}` },
@@ -71,18 +59,7 @@ const Profile = () => {
                 setProfile(response.data);
             } catch (err) {
                 console.error("Error fetching profile:", err);
-                if (err.response?.status === 403) {
-                    setIsAuthorized(false);
-                    Swal.fire({
-                        icon: "warning",
-                        title: "Not Authorized",
-                        text: "You do not own this profile.",
-                        confirmButtonText: "OK",
-                        confirmButtonColor: "#3085d6",
-                    });
-                } else {
-                    setError(err.response?.data || err.message || "Failed to load profile.");
-                }
+                setError(err.response?.data || err.message || "Failed to load profile.");
             } finally {
                 setLoading(false);
             }
@@ -91,15 +68,21 @@ const Profile = () => {
         fetchProfile();
     }, []);
 
-    if (loading) return <div className="loading">Loading profile...</div>;
-    if (error) return <div className="error">{error}</div>;
-    if (!isAuthorized) return <div className="profile-unauthorized-background-unique" />;
+    if (loading) return (
+        <div className="loading-container">
+            <div className="loading-spinner"></div>
+            <p>Loading profile...</p>
+        </div>
+    );
 
-    /* const genderText = profile && (Number(profile.gender) === 0 ? "Male" : "Female");*/
-    const genderText = profile && (profile.gender?.toLowerCase() === "male" ? "Male" : "Female");
+    if (error) return (
+        <div className="error-container">
+            <p className="error-message">{error}</p>
+            <button className="button-33" onClick={() => window.location.reload()}>Try Again</button>
+        </div>
+    );
 
-    console.log("Gender value:", profile.gender);
-
+    const genderText = profile && (Number(profile.gender) === 0 ? "Male" : "Female");
 
     return (
         <div className="profile-container">
@@ -107,24 +90,72 @@ const Profile = () => {
 
             {profile && (
                 <div className="profile-card">
-                    <h2 className="profile-title">Profile</h2>
-                    <div className="profile-info-grid">
-                        <div className="info-card"><strong>Email:</strong> {profile.email}</div>
-                        <div className="info-card"><strong>Username:</strong> {profile.userName}</div>
-                        <div className="info-card"><strong>Phone:</strong> {profile.phoneNumber}</div>
-                        {userRole?.toLowerCase() !== "admin" && (
-                            <div className="info-card"><strong>Address:</strong> {profile.address}</div>
-                        )}
-                        <div className="info-card"><strong>Gender:</strong> {genderText}</div>
-                        {profile.ssn && <div className="info-card"><strong>SSN:</strong> {profile.ssn}</div>}
+                    <div className="profile-header">
+                        <div className="profile-picture">
+                            <FaUserCircle size={80} />
+                        </div>
+                        <h2>{profile.userName}</h2>
                     </div>
-                    <div>
-                        <button className="button-33" onClick={() => navigate(`/EditProfile/${userId}`)}>Edit Profile</button>
-                        {userRole === "User" && (
-                            <button className="button-33" onClick={() => navigate(`/user-bookings/${userId}`)}>My Bookings</button>
+
+                    <div className="profile-info">
+                        <div className="info-item">
+                            <FaEnvelope className="icon" />
+                            <div>
+                                <span className="label">Email</span>
+                                <span className="value">{profile.email}</span>
+                            </div>
+                        </div>
+
+                        <div className="info-item">
+                            <FaPhone className="icon" />
+                            <div>
+                                <span className="label">Phone</span>
+                                <span className="value">{profile.phoneNumber}</span>
+                            </div>
+                        </div>
+
+                        <div className="info-item">
+                            <FaMapMarkerAlt className="icon" />
+                            <div>
+                                <span className="label">Address</span>
+                                <span className="value">{profile.address}</span>
+                            </div>
+                        </div>
+
+                        <div className="info-item">
+                            <FaVenusMars className="icon" />
+                            <div>
+                                <span className="label">Gender</span>
+                                <span className="value">{genderText}</span>
+                            </div>
+                        </div>
+
+                        {profile.ssn && (
+                            <div className="info-item">
+                                <FaIdCard className="icon" />
+                                <div>
+                                    <span className="label">SSN</span>
+                                    <span className="value">{profile.ssn}</span>
+                                </div>
+                            </div>
                         )}
+                    </div>
+
+                    <div className="profile-buttons">
+                        <button className="button-33" onClick={() => navigate(`/EditProfile/${userId}`)}>
+                            <MdEdit /> Edit Profile
+                        </button>
+
+                        {userRole === "User" && (
+                            <button className="button-33" onClick={() => navigate(`/user-bookings/${userId}`)}>
+                                <MdBook /> My Bookings
+                            </button>
+                        )}
+
                         {userRole === "Owner" && (
-                            <button className="button-33" onClick={() => navigate(`/manage-bookings/${userId}`)}>Manage Bookings</button>
+                            <button className="button-33" onClick={() => navigate(`/manage-bookings/${userId}`)}>
+                                <MdManageAccounts /> Manage Bookings
+                            </button>
                         )}
                     </div>
                 </div>

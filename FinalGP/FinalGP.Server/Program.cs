@@ -15,6 +15,7 @@ using System.Security.Claims;
 using Stripe;
 using Microsoft.Extensions.Options;
 using FinalGP.Hubs;
+using FinalGP.Services;
 namespace FinalGP.Server
 {
     public class Program
@@ -56,10 +57,13 @@ namespace FinalGP.Server
             builder.Services.AddScoped<IUserRepository, UserRepository>();
             builder.Services.AddScoped<INotificationRepository, NotificationRepository>();
             builder.Services.AddScoped<IAdminRepository, AdminRepository>();
+            builder.Services.AddScoped<IChatbotService, ChatbotService>();
+			builder.Services.AddHttpClient();
+			// ≈÷«›… Œœ„… «·‘«  »Ê 
+			builder.Services.AddScoped<IChatbotService, ChatbotService>();
 
-
-            // 4) Authentication & JWT
-            builder.Services.AddAuthentication(options =>
+			// 4) Authentication & JWT
+			builder.Services.AddAuthentication(options =>
             {
                 options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
                 options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -83,7 +87,7 @@ namespace FinalGP.Server
                 };
 
 
-                StripeConfiguration.ApiKey = "sk_test_51RX6GMPxF2OA15kJ0LFdiYh3UfsHukmO2wsB86rBRBt1BSXUlYNsOk8ByemZxcPj5w6JrYveoMH1YWwB0OSA4rai00EV97hZU1";
+                Stripe.StripeConfiguration.ApiKey = builder.Configuration["Stripe:SecretKey"];
 
 
                 // **Added**: read token from "access_token" for SignalR WebSockets

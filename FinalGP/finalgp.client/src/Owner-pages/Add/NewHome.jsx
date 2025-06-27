@@ -360,7 +360,10 @@ const AddHome = () => {
                                 <div className="map-modal-content">
                                     <h3>Pick Location</h3>
                                     <div className="map-picker-container">
-                                        <MapPicker onLocationSelect={handleLocationSelect} />
+                                        <MapPicker
+                                            onLocationSelect={handleLocationSelect}
+                                            initialCity={homeData.city}
+                                        />
                                     </div>
                                     <button type="button" className="button-nh close-map-btn" onClick={() => setShowMap(false)}>
                                         Close

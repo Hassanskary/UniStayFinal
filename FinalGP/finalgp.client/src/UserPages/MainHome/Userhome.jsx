@@ -8,7 +8,7 @@ import "./Userhome.css";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { useNavigate } from "react-router-dom";
-
+import ChatbotUI from "../../components/ChatbotUI";
 const assignHomeId = (home, index) => {
     if (!home.id) {
         home.id = home._id || `${home.title}-${index}-${Date.now()}`;
@@ -639,6 +639,7 @@ function HomePageContent() {
                     <a href="#">
                         <img src="/images/linkedin-icon.png" alt="LinkedIn" />
                     </a>
+                    <ChatbotUI />
                 </div>
             </div>
         </div>

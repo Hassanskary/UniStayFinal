@@ -100,7 +100,7 @@ namespace FinalGP.Controllers
                 issuer: config["JWT:Issuer"],
                 audience: config["JWT:Audience"],
                 claims: claims,
-                expires: DateTime.UtcNow.AddMinutes(40),
+                expires: DateTime.UtcNow.AddMinutes(30),
                 signingCredentials: credentials
             );
 

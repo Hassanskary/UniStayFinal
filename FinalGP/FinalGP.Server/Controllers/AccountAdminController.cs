@@ -20,7 +20,7 @@ namespace FinalGP.Controllers
 		}
 
 		[HttpPost("Register")]
-       [Authorize(Roles = "Admin")]
+     //  [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Register(AdminRegisterModel model)
         {
             if (!ModelState.IsValid)

@@ -1,0 +1,56 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\EL-Bustan\\Desktop\\proj\\MyProjectAPIL\\FinalGP\\FinalGP.Server\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3C4A69EF-5D2F-4AFA-88D3-DE79AC409655}|..\\..\\..\\..\\BackProj\\FinalGP.Server\\GraduationProject.Server.csproj|c:\\users\\el-bustan\\desktop\\backproj\\finalgp.server\\graduationproject.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16490050-4349-4E93-9378-90E9067A0658}|..\\..\\..\\..\\BackProj\\FinalGP.Server\\FinalGP.Server.csproj|c:\\users\\el-bustan\\desktop\\backproj\\finalgp.server\\finalgp.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FinalGP.Server",
+              "DocumentMoniker": "C:\\Users\\EL-Bustan\\Desktop\\BackProj\\FinalGP.Server\\FinalGP.Server.csproj",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\BackProj\\FinalGP.Server\\FinalGP.Server.csproj",
+              "ToolTip": "C:\\Users\\EL-Bustan\\Desktop\\BackProj\\FinalGP.Server\\FinalGP.Server.csproj",
+              "RelativeToolTip": "..\\..\\..\\..\\BackProj\\FinalGP.Server\\FinalGP.Server.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-30T09:27:19.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GraduationProject.Server",
+              "DocumentMoniker": "C:\\Users\\EL-Bustan\\Desktop\\BackProj\\FinalGP.Server\\GraduationProject.Server.csproj",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\BackProj\\FinalGP.Server\\GraduationProject.Server.csproj",
+              "ToolTip": "C:\\Users\\EL-Bustan\\Desktop\\BackProj\\FinalGP.Server\\GraduationProject.Server.csproj",
+              "RelativeToolTip": "..\\..\\..\\..\\BackProj\\FinalGP.Server\\GraduationProject.Server.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-30T09:27:12.939Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

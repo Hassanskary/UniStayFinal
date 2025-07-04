@@ -3,7 +3,7 @@ import { useParams, useNavigate } from "react-router-dom";
 import axios from "axios";
 import "./AllRooms.css";
 import Navbar from "../../components/Navbar";
-import Swal from "sweetalert2"; // Added for SweetAlert2
+import Swal from "sweetalert2";
 
 const API_URL = "https://localhost:7194/api/Room/GetRoomsByHome";
 
@@ -45,8 +45,8 @@ const RoomsList = () => {
     const [error, setError] = useState(null);
     const [homeTitle, setHomeTitle] = useState("");
     const [ownerIds, setOwnerIds] = useState({});
-    const [isAuthorized, setIsAuthorized] = useState(true); // New state to control authorization
-    const [isOwnerOfHome, setIsOwnerOfHome] = useState(false); // New state to check if current user owns the home
+    const [isAuthorized, setIsAuthorized] = useState(true);
+    const [isOwnerOfHome, setIsOwnerOfHome] = useState(false);
 
     const token = getToken();
     const decodedToken = parseJwt(token);
@@ -83,7 +83,7 @@ const RoomsList = () => {
             }
             setOwnerIds(ownerIdsMap);
 
-            // تحقق من الملكية فقط إذا كان الـ role هو "Owner"
+            // Check ownership only if the role is "Owner"
             if (token && isOwner) {
                 const decoded = parseJwt(token);
                 const userId = decoded?.["http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier"] || decoded?.nameid;
@@ -230,7 +230,7 @@ const RoomsList = () => {
             <Navbar />
             <div className="header-card">
                 <h2>Rooms for {homeTitle}</h2>
-                {isOwner && isOwnerOfHome && (
+                {isOwner && isAuthorized && (
                     <button className="button-nr" onClick={() => navigate(`/AddRoom/${homeId}`)}>
                         Add New Room
                     </button>

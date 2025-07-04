@@ -216,25 +216,25 @@ const NotificationModal = ({ onClose }) => {
         const message = notification.message;
         if (message.includes("Owner") && message.includes("has added New Home")) {
             const match = message.match(homeIdPattern);
-            if (match) url = `http://localhost:55559/home-details/${match[1]}`;
+            if (match) url = `https://localhost:55559/home-details/${match[1]}`;
         } else if (message.includes("Admin was update home status")) {
             const match = message.match(homeIdPattern);
-            if (match) url = `http://localhost:55559/home-details/${match[1]}`;
+            if (match) url = `https://localhost:55559/home-details/${match[1]}`;
         } else if (message.includes("booking by user") && (message.includes("Cash") || message.includes("Stripe"))) {
             const match = message.match(roomIdPattern);
-            if (match) url = `http://localhost:55559/RoomDetails/${match[1]}`;
+            if (match) url = `https://localhost:55559/RoomDetails/${match[1]}`;
         } else if (message.includes("Your booking for room") || message.includes("Your renewal booking for room")) {
             const match = message.match(roomIdPattern);
-            if (match) url = `http://localhost:55559/RoomDetails/${match[1]}`;
+            if (match) url = `https://localhost:55559/RoomDetails/${match[1]}`;
         } else if (message.includes("has reported home")) {
             const match = message.match(homeReportPattern);
-            if (match) url = `http://localhost:55559/HomeReports/${match[1]}`;
+            if (match) url = `https://localhost:55559/HomeReports/${match[1]}`;
         } else if (message.includes("Your home (ID:") && message.includes("has been banned")) {
             const match = message.match(homeReportPattern);
-            if (match) url = `http://localhost:55559/home-details/${match[1]}`;
+            if (match) url = `https://localhost:55559/home-details/${match[1]}`;
         } else if (message.includes("Your report on home") && message.includes("has been rejected")) {
             const match = message.match(homeReportPattern);
-            if (match) url = `http://localhost:55559/detailsH/${match[1]}`;
+            if (match) url = `https://localhost:55559/detailsH/${match[1]}`;
         }
 
         if (url) window.location.href = url;

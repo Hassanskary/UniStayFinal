@@ -3,7 +3,7 @@
 "ServerUrl": "https://localhost:55559",
 "RedirectUrl": "",
 "LaunchCommand": "npm run dev",
-"WorkingDirectory": "F:\\GraduationProject\\MyProjectAPIL 6-266\\FinalGP\\FinalGP.Server\\..\\finalgp.client",
+"WorkingDirectory": "C:\\Users\\radwa\\Desktop\\myprofine\\MyProjectAPIL (4)\\MyProjectAPIL\\FinalGP\\FinalGP.Server\\..\\finalgp.client",
 "MaxTimeoutInSeconds": "120",
 "KeepRunning": "false"
 }

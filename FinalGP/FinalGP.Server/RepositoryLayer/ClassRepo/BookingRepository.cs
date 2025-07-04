@@ -39,25 +39,6 @@ namespace FinalGP.RepositoryLayer.ClassRepo
             if (room == null)
                 throw new InvalidOperationException("Room not found");
 
-            var home = await _context.Homes
-                .Include(h => h.Owner)
-                .FirstOrDefaultAsync(h => h.Id == room.HomeId);
-
-            // Validate that home and owner exist
-            if (home == null || home.Owner == null)
-                throw new InvalidOperationException("Home or owner not found for the room");
-
-            // Check for existing booking in the same home for another room
-            var existingBookingInHome = await _context.Set<Booking>()
-                .Include(b => b.Room) // Include Room to access HomeId
-                .Where(b => b.UserId == userId && b.RoomId != dto.RoomId && b.Room.HomeId == room.HomeId &&
-                            (b.Status == BookingStatus.Confirmed || b.Status == BookingStatus.Paid) &&
-                            b.EndDate >= DateTime.UtcNow)
-                .AnyAsync();
-
-            if (existingBookingInHome)
-                throw new InvalidOperationException("You already have an active booking in this home for another room.");
-
             var existingBooking = await _context.Set<Booking>()
                 .Where(b => b.UserId == userId && b.RoomId == dto.RoomId &&
                             (b.Status == BookingStatus.Confirmed || b.Status == BookingStatus.Paid) &&
@@ -65,6 +46,13 @@ namespace FinalGP.RepositoryLayer.ClassRepo
                 .OrderByDescending(b => b.EndDate)
                 .FirstOrDefaultAsync();
 
+            var home = await _context.Homes
+                .Include(h => h.Owner)
+                .FirstOrDefaultAsync(h => h.Id == room.HomeId);
+
+            // Validate that home and owner exist
+            if (home == null || home.Owner == null)
+                throw new InvalidOperationException("Home or owner not found for the room");
 
             if (existingBooking != null)
             {

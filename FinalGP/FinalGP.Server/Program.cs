@@ -1,20 +1,21 @@
 using FinalGP.Data;
+using FinalGP.Hubs;
 using FinalGP.Models;
+using FinalGP.RepositoryLayer.ClassRepo;
+using FinalGP.RepositoryLayer.Generic;
+using FinalGP.RepositoryLayer.Interface;
+using FinalGP.Server.Hubs;
+using FinalGP.ServiceLayer;
+using FinalGP.Services;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.IdentityModel.Tokens;
-using System.Text;
-using FinalGP.RepositoryLayer.Generic;
-using FinalGP.RepositoryLayer.ClassRepo;
-using FinalGP.RepositoryLayer.Interface;
-using FinalGP.ServiceLayer;
-using FinalGP.Server.Hubs;
-using System.Text.Json.Serialization;
-using System.Security.Claims;
-using Stripe;
 using Microsoft.Extensions.Options;
-using FinalGP.Hubs;
+using Microsoft.IdentityModel.Tokens;
+using Stripe;
+using System.Security.Claims;
+using System.Text;
+using System.Text.Json.Serialization;
 namespace FinalGP.Server
 {
     public class Program
@@ -56,7 +57,8 @@ namespace FinalGP.Server
             builder.Services.AddScoped<IUserRepository, UserRepository>();
             builder.Services.AddScoped<INotificationRepository, NotificationRepository>();
             builder.Services.AddScoped<IAdminRepository, AdminRepository>();
-
+            builder.Services.AddHttpClient();
+            builder.Services.AddScoped<IChatbotService, ChatbotService>();
 
             // 4) Authentication & JWT
             builder.Services.AddAuthentication(options =>
@@ -113,7 +115,7 @@ namespace FinalGP.Server
             {
                 options.AddPolicy("AllowFrontend", builder =>
                 {
-                    builder.WithOrigins("http://localhost:55559") 
+                    builder.WithOrigins("https://localhost:55559") 
                            .AllowAnyMethod()
                            .AllowAnyHeader()
                            .AllowCredentials(); // Allow credentials for SignalR

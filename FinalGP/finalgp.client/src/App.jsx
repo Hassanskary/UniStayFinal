@@ -32,7 +32,6 @@ import DetailsH from "./UserPages/HomeUser/detailsH";
 import ChatList from './components/Chats/ChatList';
 import FilterPage from "./UserPages/Filter/FilterPage";
 import Chat from './components/Chats/Chat';
-
 import StripePayment from './UserPages/Payment/StripePayment';
 import PaymentSelection from './UserPages/Payment/PaymentSelection';
 import BookingConfirmation from './UserPages/UserBooking/BookingConfirmation';

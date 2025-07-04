@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinalGP.Server", "..\..\..\..\BackProj\FinalGP.Server\FinalGP.Server.csproj", "{16490050-4349-4E93-9378-90E9067A0658}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraduationProject.Server", "..\..\..\..\BackProj\FinalGP.Server\GraduationProject.Server.csproj", "{3C4A69EF-5D2F-4AFA-88D3-DE79AC409655}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16490050-4349-4E93-9378-90E9067A0658}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16490050-4349-4E93-9378-90E9067A0658}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16490050-4349-4E93-9378-90E9067A0658}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16490050-4349-4E93-9378-90E9067A0658}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C4A69EF-5D2F-4AFA-88D3-DE79AC409655}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C4A69EF-5D2F-4AFA-88D3-DE79AC409655}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C4A69EF-5D2F-4AFA-88D3-DE79AC409655}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C4A69EF-5D2F-4AFA-88D3-DE79AC409655}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

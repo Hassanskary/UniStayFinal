@@ -9,9 +9,6 @@
     <PackageJsonScriptsBuild Condition="$(PackageJsonScriptsBuild) == ''">vite build</PackageJsonScriptsBuild>
     <PackageJsonScriptsLint Condition="$(PackageJsonScriptsLint) == ''">eslint .</PackageJsonScriptsLint>
     <PackageJsonScriptsPreview Condition="$(PackageJsonScriptsPreview) == ''">vite preview</PackageJsonScriptsPreview>
-    <PackageJsonDependenciesFortawesomeFontawesomeSvgCore Condition="$(PackageJsonDependenciesFortawesomeFontawesomeSvgCore) == ''">^6.7.2</PackageJsonDependenciesFortawesomeFontawesomeSvgCore>
-    <PackageJsonDependenciesFortawesomeFreeSolidSvgIcons Condition="$(PackageJsonDependenciesFortawesomeFreeSolidSvgIcons) == ''">^6.7.2</PackageJsonDependenciesFortawesomeFreeSolidSvgIcons>
-    <PackageJsonDependenciesFortawesomeReactFontawesome Condition="$(PackageJsonDependenciesFortawesomeReactFontawesome) == ''">^0.2.2</PackageJsonDependenciesFortawesomeReactFontawesome>
     <PackageJsonDependenciesMicrosoftSignalr Condition="$(PackageJsonDependenciesMicrosoftSignalr) == ''">^8.0.7</PackageJsonDependenciesMicrosoftSignalr>
     <PackageJsonDependenciesReactGoogleMapsApi Condition="$(PackageJsonDependenciesReactGoogleMapsApi) == ''">^2.20.6</PackageJsonDependenciesReactGoogleMapsApi>
     <PackageJsonDependenciesReactOauthGoogle Condition="$(PackageJsonDependenciesReactOauthGoogle) == ''">^0.12.1</PackageJsonDependenciesReactOauthGoogle>

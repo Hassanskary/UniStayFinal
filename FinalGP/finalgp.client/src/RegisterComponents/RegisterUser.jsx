@@ -119,7 +119,7 @@ const Register = () => {
         <div className="register-container-user">
             <div className="register-form-user">
                 <img src={logo} alt="Logo" className="logo" />
-                <h2>Register</h2>
+                <h2>Register User</h2>
                 <form onSubmit={handleSubmit}>
                     {errors.general && <p className="error">{errors.general}</p>}
                     <input

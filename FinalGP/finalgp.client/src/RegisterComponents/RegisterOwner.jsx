@@ -119,7 +119,7 @@ const OwnerRegister = () => {
         <div className="register-container-owner">
             <div className="register-form-owner">
                 <img src={logo} alt="Logo" className="logo" />
-                <h2>Register</h2>
+                <h2>Register Owner</h2>
                 <form onSubmit={handleSubmit}>
                     {errors.general && <p className="error">{errors.general}</p>}
                     <input

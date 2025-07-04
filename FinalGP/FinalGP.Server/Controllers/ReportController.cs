@@ -47,14 +47,15 @@ namespace FinalGP.Controllers
         {
             var reportedHomes = _reportRepository
                 .Query()
-                .Include(r => r.Home)
-                .Where(r => r.Home != null && r.Status == ReportStatus.Pending)
-                .GroupBy(r => new { r.Home.Id, r.Home.Title })
+                .Where(r => r.Home != null) 
+                .GroupBy(r => new { r.Home.Id, r.Home.Title }) 
+                .Where(g => g.Any(r => r.Status == ReportStatus.Pending)) 
                 .Select(g => new
                 {
                     HomeId = g.Key.Id,
                     Title = g.Key.Title,
-                    TotalReports = g.Count()
+                    TotalReports = g.Count(), 
+                    PendingReports = g.Count(r => r.Status == ReportStatus.Pending) 
                 })
                 .ToList();
 
@@ -68,6 +69,7 @@ namespace FinalGP.Controllers
         {
             var reports = _reportRepository.Query()
                 .Include(r => r.User)
+              .Where(r => r.Home != null && r.Status == ReportStatus.Pending)
                 .Where(r => r.HomeId == homeId)
                 .Select(r => new ReportDetailDto
                 {

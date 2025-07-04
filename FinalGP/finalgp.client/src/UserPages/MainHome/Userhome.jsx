@@ -4,6 +4,7 @@ import HeroSection from "./HeroSection";
 import FacilityFilterComponent from "../Filter/FacilityFilterComponent";
 import RoomFilterComponent from "../Filter/RoomFilterComponent";
 import { CompareHomesContext } from "../../hooks/CompareHomesContext";
+import ChatbotUI from "../../components/ChatbotUI";
 import "./Userhome.css";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -18,7 +19,7 @@ const assignHomeId = (home, index) => {
 
 function HomeCard({ home }) {
     const [currentPhotoIndex, setCurrentPhotoIndex] = useState(0);
-    const [isHovered, setIsHovered] = useState(false); 
+    const [isHovered, setIsHovered] = useState(false);
     const { addHomeToCompare, removeHome, comparedHomes } = useContext(CompareHomesContext);
     const navigate = useNavigate();
     const intervalRef = useRef(null);
@@ -66,15 +67,15 @@ function HomeCard({ home }) {
         navigate(`/detailsH/${homeId}`);
     };
 
-   
+
     const startAutoSlide = () => {
-        if (photos.length < 2) return; 
+        if (photos.length < 2) return;
         intervalRef.current = setInterval(() => {
             setCurrentPhotoIndex((prev) => (prev === photos.length - 1 ? 0 : prev + 1));
-        }, 1700); 
+        }, 1700);
     };
 
-   
+
     const stopAutoSlide = () => {
         if (intervalRef.current) {
             clearInterval(intervalRef.current);
@@ -82,7 +83,7 @@ function HomeCard({ home }) {
         }
     };
 
-    
+
     const handleMouseEnter = () => {
         setIsHovered(true);
         startAutoSlide();
@@ -93,14 +94,14 @@ function HomeCard({ home }) {
         stopAutoSlide();
     };
 
-  
+
     useEffect(() => {
-        return () => stopAutoSlide(); 
+        return () => stopAutoSlide();
     }, []);
 
     return (
         <div className="home-card" onClick={handleCardClick}>
-            
+
             <div
                 className="photo-slider"
                 onMouseEnter={handleMouseEnter}
@@ -624,21 +625,12 @@ function HomePageContent() {
                 <div className="about-us-image">
                     <img src="/images/home1.jpeg" alt="About Us" />
                 </div>
-            </div>
-            <div className="contact-section">
-                <div className="contact-text">
-                    <h2>Contact</h2>
-                </div>
-                <div className="contact-icons">
-                    <a href="#">
-                        <img src="/images/facebook-icon.png" alt="Facebook" />
-                    </a>
-                    <a href="#">
-                        <img src="/images/whatsapp-icon.png" alt="WhatsApp" />
-                    </a>
-                    <a href="#">
-                        <img src="/images/linkedin-icon.png" alt="LinkedIn" />
-                    </a>
+                
+                <div className="contact-section">
+                    
+
+                        <ChatbotUI />
+                   
                 </div>
             </div>
         </div>

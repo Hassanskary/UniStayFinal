@@ -1,4 +1,4 @@
-# 🏠 ESH - Student Housing Management System
+# 🏠 UniStay - Student Housing Management System
 
 ## 📋 Project Description
 

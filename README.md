@@ -2,7 +2,7 @@
 
 ## 📋 Project Description
 
-**ESH** is a comprehensive student housing rental management system that provides an easy-to-use platform connecting property owners with students seeking suitable accommodation. The system supports complete property and booking management with a modern, interactive user interface.
+**UniStay** is a comprehensive student housing rental management system that provides an easy-to-use platform connecting property owners with students seeking suitable accommodation. The system supports complete property and booking management with a modern, interactive user interface.
 
 ## ✨ Key Features
 
@@ -106,9 +106,9 @@ npm run dev
 ```
 
 6. **Open the Application**
-- Frontend: `http://localhost:55559`
-- Backend API: `http://localhost:5000`
-- Swagger Documentation: `http://localhost:5000/swagger`
+- Frontend: `https://localhost:55559`
+- Backend API: `http://localhost:7194`
+- Swagger Documentation: `https://localhost:7194/swagger`
 
 ## 📁 Project Structure
 

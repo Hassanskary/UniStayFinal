@@ -85,7 +85,7 @@ namespace FinalGP.Server
                 };
 
 
-                StripeConfiguration.ApiKey = "sk_test_51RX6GMPxF2OA15kJ0LFdiYh3UfsHukmO2wsB86rBRBt1BSXUlYNsOk8ByemZxcPj5w6JrYveoMH1YWwB0OSA4rai00EV97hZU1";
+                Stripe.StripeConfiguration.ApiKey = builder.Configuration["Stripe:SecretKey"];
 
 
                 // **Added**: read token from "access_token" for SignalR WebSockets
@@ -115,7 +115,7 @@ namespace FinalGP.Server
             {
                 options.AddPolicy("AllowFrontend", builder =>
                 {
-                    builder.WithOrigins("https://localhost:55559") 
+                    builder.WithOrigins("http://localhost:55559") 
                            .AllowAnyMethod()
                            .AllowAnyHeader()
                            .AllowCredentials(); // Allow credentials for SignalR

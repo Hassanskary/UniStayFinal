@@ -1,51 +1,51 @@
-# 📜 مدونة قواعد السلوك
+# 📜 Code of Conduct
 
-## 🤝 التزامنا
+## 🤝 Our Pledge
 
-في سبيل تعزيز بيئة مفتوحة ومرحبة، نحن كمساهمين ومحافظين نلتزم بجعل المشاركة في مشروعنا ومجتمعنا تجربة خالية من المضايقة للجميع، بغض النظر عن العمر، وحجم الجسم، والإعاقة، والعرق، والخصائص الجنسية، والهوية الجنسية، ومستوى الخبرة، والتعليم، والوضع الاجتماعي والاقتصادي، والجنسية، والمظهر الشخصي، والعرق، والدين، أو التوجه الجنسي.
+In the interest of fostering an open and welcoming environment, we as contributors and maintainers pledge to make participation in our project and our community a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.
 
-## 🎯 معاييرنا
+## 🎯 Our Standards
 
-أمثلة على السلوك الذي يساهم في خلق بيئة إيجابية:
+Examples of behavior that contributes to creating a positive environment include:
 
-* استخدام لغة ترحيبية وشاملة
-* احترام وجهات النظر والخبرات المختلفة
-* قبول النقد البناء بأدب
-* التركيز على ما هو أفضل للمجتمع
-* إظهار التعاطف تجاه أعضاء المجتمع الآخرين
+* Using welcoming and inclusive language
+* Being respectful of differing viewpoints and experiences
+* Gracefully accepting constructive criticism
+* Focusing on what is best for the community
+* Showing empathy towards other community members
 
-أمثلة على السلوك غير المقبول:
+Examples of unacceptable behavior include:
 
-* استخدام لغة أو صور جنسية، أو اهتمام جنسي غير مرغوب فيه أو تقدم
-* التصيد، والتعليقات المهينة/التحقيرية، والهجمات الشخصية أو السياسية
-* المضايقة العامة أو الخاصة
-* نشر معلومات خاصة للآخرين، مثل العناوين الفعلية أو الإلكترونية، دون إذن صريح
-* سلوك آخر قد يعتبر غير مناسب في بيئة مهنية
+* The use of sexualized language or imagery and unwelcome sexual attention or advances
+* Trolling, insulting/derogatory comments, and personal or political attacks
+* Public or private harassment
+* Publishing others' private information, such as a physical or electronic address, without explicit permission
+* Other conduct which could reasonably be considered inappropriate in a professional setting
 
-## 🛠️ مسؤولياتنا
+## 🛠️ Our Responsibilities
 
-المحافظون على المشروع مسؤولون عن توضيح معايير السلوك المقبول ومن المتوقع منهم اتخاذ إجراءات تصحيحية مناسبة وعادلة استجابة لأي حالات سلوك غير مقبول.
+Project maintainers are responsible for clarifying the standards of acceptable behavior and are expected to take appropriate and fair corrective action in response to any instances of unacceptable behavior.
 
-المحافظون على المشروع لديهم الحق والمسؤولية لإزالة أو تعديل أو رفض التعليقات، والcommits، والكود، وتحريرات الويكي، والمسائل، والمساهمات الأخرى التي لا تتوافق مع مدونة قواعد السلوك هذه، وسيتم إبلاغ أسباب قرارات الإدارة عند الاقتضاء.
+Project maintainers have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, and will communicate reasons for moderation decisions when appropriate.
 
-## 🚨 التنفيذ
+## 🚨 Enforcement
 
-يمكن الإبلاغ عن حالات الإساءة أو المضايقة أو السلوك غير المقبول آخر عن طريق الاتصال بفريق المشروع. سيتم مراجعة جميع الشكاوى والتحقيق فيها وستؤدي إلى استجابة تعتبرها ضرورية ومناسبة للظروف. فريق المشروع ملتزم بالحفاظ على السرية فيما يتعلق بالشكوى المقدمة.
+Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the project team. All complaints will be reviewed and investigated and will result in a response that is deemed necessary and appropriate to the circumstances. The project team is obligated to maintain confidentiality with regard to the reporter of an incident.
 
-## 📞 الاتصال
+## 📞 Contact
 
-للتواصل مع فريق المشروع، يرجى استخدام:
+To contact the project team, please use:
 - GitHub Issues
-- البريد الإلكتروني: [your-email@example.com]
+- Email: [your-email@example.com]
 
-## 📋 التنفيذ
+## 📋 Enforcement
 
-المحافظون على المشروع الذين لا يتبعون أو ينفذون مدونة قواعد السلوك بحسن نية قد يواجهون عواقب مؤقتة أو دائمة كما يحددها أعضاء قيادة المشروع الآخرون.
+Project maintainers who do not follow or enforce the Code of Conduct in good faith may face temporary or permanent repercussions as determined by other members of the project's leadership.
 
-## 📚 الاعتراف
+## 📚 Attribution
 
-مدونة قواعد السلوك هذه مأخوذة من [Contributor Covenant](https://www.contributor-covenant.org)، الإصدار 1.4، متاحة على https://www.contributor-covenant.org/ar/version/1/4/code-of-conduct.html
+This Code of Conduct is adapted from the [Contributor Covenant](https://www.contributor-covenant.org), version 1.4, available at https://www.contributor-covenant.org/version/1/4/code-of-conduct.html
 
 ---
 
-**شكراً لالتزامك بجعل مجتمعنا مكاناً أفضل للجميع!** 🌟 
+**Thank you for helping make our community a better place!** 🌟 

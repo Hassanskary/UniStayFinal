@@ -1,102 +1,102 @@
-# 🔒 سياسة الأمان
+# 🔒 Security Policy
 
-## 🚨 الإبلاغ عن ثغرات الأمان
+## 🚨 Reporting Security Vulnerabilities
 
-نحن نأخذ أمان مشروع ESH على محمل الجد. إذا اكتشفت ثغرة أمنية، يرجى عدم فتح issue عام. بدلاً من ذلك، يرجى إرسال تقرير مفصل إلى فريق الأمان لدينا.
+We take the security of the ESH project seriously. If you discover a security vulnerability, please do not open a public issue. Instead, please send a detailed report to our security team.
 
-## 📧 كيفية الإبلاغ
+## 📧 How to Report
 
-للإبلاغ عن ثغرة أمنية، يرجى:
+To report a security vulnerability, please:
 
-1. **عدم فتح issue عام** - لا تنشر الثغرة علناً
-2. **إرسال بريد إلكتروني** إلى: [security@esh-project.com]
-3. **استخدام عنوان واضح** مثل: "[SECURITY] وصف مختصر للثغرة"
-4. **تقديم تفاصيل كاملة** في محتوى البريد الإلكتروني
+1. **Do not open a public issue** - Do not publicly disclose the vulnerability
+2. **Send an email** to: [security@esh-project.com]
+3. **Use a clear subject** such as: "[SECURITY] Brief description of vulnerability"
+4. **Provide complete details** in the email body
 
-## 📋 معلومات مطلوبة في التقرير
+## 📋 Information Required in Report
 
-يرجى تضمين المعلومات التالية في تقريرك:
+Please include the following information in your report:
 
-### معلومات أساسية
-- **نوع الثغرة**: (مثال: SQL Injection, XSS, Authentication Bypass)
-- **شدة الثغرة**: (منخفضة/متوسطة/عالية/حرجة)
-- **المكون المتأثر**: (Frontend/Backend/Database/API)
+### Basic Information
+- **Vulnerability Type**: (e.g., SQL Injection, XSS, Authentication Bypass)
+- **Severity**: (Low/Medium/High/Critical)
+- **Affected Component**: (Frontend/Backend/Database/API)
 
-### تفاصيل تقنية
-- **وصف الثغرة**: شرح مفصل للثغرة
-- **خطوات إعادة الإنتاج**: خطوات واضحة لإعادة إنتاج المشكلة
-- **البيئة المتأثرة**: (الإصدار، النظام التشغيلي، المتصفح)
-- **البيانات المطلوبة**: أي بيانات خاصة مطلوبة للاختبار
+### Technical Details
+- **Vulnerability Description**: Detailed explanation of the vulnerability
+- **Reproduction Steps**: Clear steps to reproduce the issue
+- **Affected Environment**: (Version, OS, Browser)
+- **Required Data**: Any special data needed for testing
 
-### معلومات إضافية
-- **الآثار المحتملة**: ما يمكن أن يحدث إذا تم استغلال الثغرة
-- **اقتراحات الإصلاح**: أي أفكار حول كيفية إصلاح المشكلة
-- **معلومات الاتصال**: كيفية الوصول إليك للمتابعة
+### Additional Information
+- **Potential Impact**: What could happen if exploited
+- **Fix Suggestions**: Any ideas on how to fix the issue
+- **Contact Information**: How to reach you for follow-up
 
-## ⏱️ جدول الاستجابة
+## ⏱️ Response Timeline
 
-نحن نلتزم بالاستجابة السريعة للتقارير الأمنية:
+We commit to rapid response to security reports:
 
-- **الاعتراف الأولي**: خلال 24-48 ساعة
-- **التقييم الأولي**: خلال 3-5 أيام عمل
-- **التحديثات المنتظمة**: كل أسبوع حتى الإصلاح
-- **الإصلاح**: حسب شدة الثغرة (1-30 يوم)
+- **Initial Acknowledgment**: Within 24-48 hours
+- **Initial Assessment**: Within 3-5 business days
+- **Regular Updates**: Weekly until fix
+- **Fix**: Depending on severity (1-30 days)
 
-## 🏆 برنامج مكافآت الأمان
+## 🏆 Security Rewards Program
 
-نحن نقدر جهود الباحثين عن الثغرات الأمنية ونقدم:
+We appreciate the efforts of security researchers and offer:
 
-- **شكر رسمي** في ملف SECURITY.md
-- **شهادة تقدير** للباحثين
-- **اعتراف** في إصدارات المشروع
-- **مكافآت مالية** للثغرات الحرجة (حسب التقييم)
+- **Official Recognition** in SECURITY.md
+- **Certificate of Appreciation** for researchers
+- **Acknowledgement** in project releases
+- **Monetary Rewards** for critical vulnerabilities (subject to evaluation)
 
-## 🔍 نطاق الاختبار
+## 🔍 Testing Scope
 
-### ما هو مسموح به
-- اختبار النسخ المطورة محلياً
-- اختبار النسخ المطورة على خوادم الاختبار
-- اختبار الميزات العامة
+### What is Allowed
+- Testing locally developed versions
+- Testing versions deployed on test servers
+- Testing public features
 
-### ما هو غير مسموح به
-- اختبار الخوادم الإنتاجية
-- اختبار بيانات المستخدمين الحقيقية
-- إجراء اختبارات قد تؤثر على الخدمة
-- اختبار البنية التحتية
+### What is Not Allowed
+- Testing production servers
+- Testing real user data
+- Conducting tests that may affect service
+- Testing infrastructure
 
-## 📚 أفضل الممارسات
+## 📚 Best Practices
 
-### للمطورين
-- مراجعة الكود بانتظام
-- استخدام أدوات تحليل الأمان
-- تحديث المكتبات والتبعيات
-- اتباع مبادئ الأمان في التطوير
+### For Developers
+- Regular code reviews
+- Use security analysis tools
+- Update libraries and dependencies
+- Follow security development principles
 
-### للمستخدمين
-- الإبلاغ عن أي سلوك مشبوه
-- عدم مشاركة بيانات الاعتماد
-- استخدام كلمات مرور قوية
-- تفعيل المصادقة الثنائية
+### For Users
+- Report any suspicious behavior
+- Do not share credentials
+- Use strong passwords
+- Enable two-factor authentication
 
-## 🔄 الإفصاح المسؤول
+## 🔄 Responsible Disclosure
 
-بعد إصلاح الثغرة:
+After fixing the vulnerability:
 
-1. **إشعار عام**: سيتم إصدار إشعار عام
-2. **تفاصيل محدودة**: سيتم مشاركة تفاصيل محدودة للثغرة
-3. **شكر للباحث**: سيتم شكر الباحث علناً
-4. **تحديث التوثيق**: سيتم تحديث التوثيق إذا لزم الأمر
+1. **Public Notice**: A public notice will be issued
+2. **Limited Details**: Limited details about the vulnerability will be shared
+3. **Researcher Credit**: The researcher will be publicly thanked
+4. **Documentation Update**: Documentation will be updated if necessary
 
-## 📞 معلومات الاتصال
+## 📞 Contact Information
 
-- **البريد الإلكتروني للأمان**: [security@esh-project.com]
-- **فريق الأمان**: ESH Security Team
-- **وقت الاستجابة**: 24-48 ساعة
+- **Security Email**: [security@esh-project.com]
+- **Security Team**: ESH Security Team
+- **Response Time**: 24-48 hours
 
-## 🙏 شكر خاص
+## 🙏 Special Thanks
 
-نشكر جميع الباحثين عن الثغرات الأمنية الذين يساعدوننا في جعل ESH أكثر أماناً للجميع.
+We thank all security researchers who help us make ESH more secure for everyone.
 
 ---
 
-**معاً نحمي مجتمعنا!** 🛡️ 
+**Together we protect our community!** 🛡️ 

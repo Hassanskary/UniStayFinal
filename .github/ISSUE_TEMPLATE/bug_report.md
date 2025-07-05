@@ -1,37 +1,37 @@
 ---
-name: 🐛 الإبلاغ عن خطأ
-about: إنشاء تقرير لمساعدتنا في تحسين المشروع
+name: 🐛 Bug Report
+about: Create a report to help us improve the project
 title: '[BUG] '
 labels: 'bug'
 assignees: ''
 
 ---
 
-## 🐛 وصف الخطأ
+## 🐛 Bug Description
 
-وصف واضح ومختصر للخطأ.
+A clear and concise description of the bug.
 
-## 🔄 خطوات إعادة إنتاج المشكلة
+## 🔄 Steps to Reproduce
 
-1. اذهب إلى '...'
-2. انقر على '....'
-3. اتمرر لأسفل إلى '....'
-4. شاهد الخطأ
+1. Go to '...'
+2. Click on '....'
+3. Scroll down to '....'
+4. See error
 
-## ✅ السلوك المتوقع
+## ✅ Expected Behavior
 
-وصف واضح لما كنت تتوقعه أن يحدث.
+A clear description of what you expected to happen.
 
-## 📸 لقطات شاشة
+## 📸 Screenshots
 
-إذا كان ذلك مناسباً، أضف لقطات شاشة لمساعدتنا في شرح المشكلة.
+If applicable, add screenshots to help explain the problem.
 
-## 💻 معلومات النظام
+## 💻 System Information
 
- - OS: [مثال: Windows 10]
- - Browser: [مثال: Chrome, Safari]
- - Version: [مثال: 22]
+ - OS: [e.g. Windows 10]
+ - Browser: [e.g. Chrome, Safari]
+ - Version: [e.g. 22]
 
-## 📱 معلومات إضافية
+## 📱 Additional Information
 
-أي معلومات أخرى حول المشكلة هنا. 
+Any other context about the problem here. 

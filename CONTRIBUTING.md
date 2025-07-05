@@ -1,49 +1,49 @@
-# 🤝 دليل المساهمة في مشروع ESH
+# 🤝 Contributing Guide - ESH Project
 
-شكراً لاهتمامك بالمساهمة في مشروع ESH! هذا الدليل سيساعدك على فهم كيفية المساهمة بشكل فعال.
+Thank you for your interest in contributing to the ESH project! This guide will help you understand how to contribute effectively.
 
-## 📋 كيفية المساهمة
+## 📋 How to Contribute
 
-### 1. الإبلاغ عن الأخطاء (Bug Reports)
+### 1. Bug Reports
 
-إذا وجدت خطأ في المشروع، يرجى:
+If you find a bug in the project, please:
 
-- **البحث أولاً**: تأكد من أن المشكلة لم يتم الإبلاغ عنها من قبل
-- **استخدام القالب**: استخدم قالب Bug Report عند فتح Issue جديد
-- **تقديم تفاصيل كاملة**: 
-  - وصف المشكلة
-  - خطوات إعادة إنتاج المشكلة
-  - السلوك المتوقع
-  - لقطات شاشة (إن أمكن)
-  - معلومات النظام والمتصفح
+- **Search first**: Make sure the issue hasn't been reported before
+- **Use the template**: Use the Bug Report template when opening a new Issue
+- **Provide complete details**: 
+  - Description of the problem
+  - Steps to reproduce the issue
+  - Expected behavior
+  - Screenshots (if possible)
+  - System and browser information
 
-### 2. اقتراح ميزات جديدة (Feature Requests)
+### 2. Feature Requests
 
-لاقتراح ميزات جديدة:
+To suggest new features:
 
-- **وصف الميزة**: اشرح الميزة المطلوبة بوضوح
-- **مبرر الميزة**: اشرح لماذا هذه الميزة مفيدة
-- **التنفيذ المقترح**: إذا كان لديك فكرة عن كيفية التنفيذ
-- **الأمثلة**: قدم أمثلة على الاستخدام
+- **Describe the feature**: Clearly explain the requested feature
+- **Justify the feature**: Explain why this feature is useful
+- **Proposed implementation**: If you have ideas about implementation
+- **Examples**: Provide usage examples
 
-### 3. المساهمة بالكود (Code Contributions)
+### 3. Code Contributions
 
-#### إعداد البيئة المحلية
+#### Local Environment Setup
 
-1. **Fork المشروع**
+1. **Fork the Project**
 ```bash
 git clone https://github.com/your-username/ESH-Housing-System.git
 cd ESH-Housing-System
 ```
 
-2. **إنشاء Branch جديد**
+2. **Create a New Branch**
 ```bash
 git checkout -b feature/your-feature-name
-# أو
+# or
 git checkout -b fix/your-bug-fix
 ```
 
-3. **تثبيت المتطلبات**
+3. **Install Dependencies**
 ```bash
 # Frontend
 cd FinalGP/finalgp.client
@@ -54,91 +54,91 @@ cd ../FinalGP.Server
 dotnet restore
 ```
 
-#### معايير الكود
+#### Code Standards
 
-- **التنسيق**: اتبع معايير التنسيق المستخدمة في المشروع
-- **التعليقات**: أضف تعليقات توضيحية للكود المعقد
-- **الأسماء**: استخدم أسماء واضحة ووصفية للمتغيرات والدوال
-- **الاختبار**: تأكد من أن الكود يعمل بشكل صحيح
+- **Formatting**: Follow the formatting standards used in the project
+- **Comments**: Add explanatory comments for complex code
+- **Naming**: Use clear and descriptive names for variables and functions
+- **Testing**: Ensure the code works correctly
 
-#### إرشادات الـ Commit
+#### Commit Guidelines
 
-استخدم رسائل commit واضحة ووصفية:
+Use clear and descriptive commit messages:
 
 ```bash
-# جيد
-git commit -m "feat: إضافة نظام البحث المتقدم"
+# Good
+git commit -m "feat: add advanced search system"
 
-# سيء
+# Bad
 git commit -m "fix bug"
 ```
 
-أمثلة على أنواع الـ Commits:
-- `feat:` - ميزة جديدة
-- `fix:` - إصلاح خطأ
-- `docs:` - تحديث التوثيق
-- `style:` - تحسينات في التنسيق
-- `refactor:` - إعادة هيكلة الكود
-- `test:` - إضافة أو تحديث الاختبارات
-- `chore:` - مهام الصيانة
+Examples of commit types:
+- `feat:` - New feature
+- `fix:` - Bug fix
+- `docs:` - Documentation update
+- `style:` - Formatting improvements
+- `refactor:` - Code refactoring
+- `test:` - Adding or updating tests
+- `chore:` - Maintenance tasks
 
-#### إرسال Pull Request
+#### Submitting Pull Requests
 
-1. **تحديث Branch**
+1. **Update Branch**
 ```bash
 git fetch origin
 git rebase origin/main
 ```
 
-2. **إنشاء Pull Request**
-- استخدم قالب PR المناسب
-- اربط PR بـ Issue ذي صلة
-- اكتب وصف واضح للتغييرات
+2. **Create Pull Request**
+- Use the appropriate PR template
+- Link PR to related Issue
+- Write a clear description of changes
 
-3. **مراجعة الكود**
-- تأكد من أن جميع الاختبارات تمر
-- استجب لتعليقات المراجعة
-- احتفظ بـ PR محدث
+3. **Code Review**
+- Ensure all tests pass
+- Respond to review comments
+- Keep PR updated
 
-## 🎯 مجالات المساهمة
+## 🎯 Contribution Areas
 
 ### Frontend (React)
-- تحسين واجهة المستخدم
-- إضافة ميزات تفاعلية جديدة
-- تحسين الأداء
-- إصلاح مشاكل التوافق
+- Improve user interface
+- Add new interactive features
+- Performance optimization
+- Fix compatibility issues
 
 ### Backend (ASP.NET Core)
-- إضافة API endpoints جديدة
-- تحسين الأداء والأمان
-- إصلاح مشاكل قاعدة البيانات
-- تحسين التوثيق
+- Add new API endpoints
+- Improve performance and security
+- Fix database issues
+- Improve documentation
 
-### التوثيق
-- تحديث README
-- إضافة أمثلة للاستخدام
-- تحسين التعليقات في الكود
-- إنشاء أدلة المستخدم
+### Documentation
+- Update README
+- Add usage examples
+- Improve code comments
+- Create user guides
 
-### الاختبارات
-- إضافة اختبارات وحدة
-- إضافة اختبارات تكامل
-- تحسين تغطية الاختبارات
+### Testing
+- Add unit tests
+- Add integration tests
+- Improve test coverage
 
-## 📞 التواصل
+## 📞 Communication
 
-- **Issues**: استخدم GitHub Issues للمناقشات العامة
-- **Discussions**: استخدم GitHub Discussions للمناقشات المطولة
-- **Email**: للاستفسارات الخاصة
+- **Issues**: Use GitHub Issues for general discussions
+- **Discussions**: Use GitHub Discussions for extended conversations
+- **Email**: For private inquiries
 
-## 🏆 الاعتراف
+## 🏆 Recognition
 
-سيتم إضافة جميع المساهمين إلى قائمة المساهمين في المشروع. المساهمات المميزة ستُعرض في README.
+All contributors will be added to the project's contributors list. Outstanding contributions will be featured in the README.
 
-## 📄 الترخيص
+## 📄 License
 
-بالمساهمة في هذا المشروع، فإنك توافق على أن مساهماتك ستكون مرخصة تحت نفس ترخيص المشروع (MIT).
+By contributing to this project, you agree that your contributions will be licensed under the same license as the project (MIT).
 
 ---
 
-**شكراً لمساهمتك في جعل ESH أفضل!** 🚀 
+**Thank you for helping make ESH better!** 🚀 

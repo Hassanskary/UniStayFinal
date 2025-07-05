@@ -1,36 +1,36 @@
-## 📝 وصف التغييرات
+## 📝 Description of Changes
 
-وصف واضح ومختصر للتغييرات المقدمة في هذا PR.
+A clear and concise description of the changes made in this PR.
 
-## 🔗 ربط بـ Issue
+## 🔗 Link to Issue
 
-- يغلق #(issue number)
+- Closes #(issue number)
 
-## ✅ نوع التغيير
+## ✅ Type of Change
 
-يرجى حذف الخيارات التي لا تنطبق:
+Please delete options that don't apply:
 
-- [ ] إصلاح خطأ (تغيير لا يسبب كسراً في الكود الموجود)
-- [ ] ميزة جديدة (إضافة ميزة تسبب كسراً في الكود الموجود)
-- [ ] كسر في التوافق (إصلاح أو ميزة تسبب كسراً في الكود الموجود)
-- [ ] تغيير في التوثيق
+- [ ] Bug fix (non-breaking change which fixes an issue)
+- [ ] New feature (non-breaking change which adds functionality)
+- [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
+- [ ] Documentation change
 
-## 🧪 كيف تم اختبار التغييرات؟
+## 🧪 How Has This Been Tested?
 
-يرجى وصف الاختبارات التي أجريتها للتحقق من التغييرات. قدم تعليمات حتى نتمكن من إعادة إنتاجها.
+Please describe the tests that you ran to verify your changes. Provide instructions so we can reproduce them.
 
-## 📸 لقطات شاشة
+## 📸 Screenshots
 
-إذا كان ذلك مناسباً، أضف لقطات شاشة لتوضيح التغييرات.
+If applicable, add screenshots to demonstrate the changes.
 
-## 📋 قائمة التحقق
+## 📋 Checklist
 
-- [ ] تم اختبار الكود محلياً
-- [ ] تم تحديث التوثيق
-- [ ] تم إضافة اختبارات جديدة (إذا كان ذلك مناسباً)
-- [ ] جميع الاختبارات تمر
-- [ ] الكود يتبع معايير التنسيق
+- [ ] Code has been tested locally
+- [ ] Documentation has been updated
+- [ ] New tests have been added (if applicable)
+- [ ] All tests pass
+- [ ] Code follows formatting standards
 
-## 📱 معلومات إضافية
+## 📱 Additional Information
 
-أي معلومات أخرى تريد إضافتها حول هذا PR. 
+Any other information you want to add about this PR. 

@@ -1,12 +1,12 @@
-# 📚 توثيق API - ESH Housing System
+# 📚 API Documentation - ESH Housing System
 
 ## 🔗 Base URL
 ```
 https://your-domain.com/api
 ```
 
-## 🔐 المصادقة
-جميع الطلبات تتطلب JWT Token في Header:
+## 🔐 Authentication
+All requests require JWT Token in Header:
 ```
 Authorization: Bearer <your-jwt-token>
 ```
@@ -14,49 +14,49 @@ Authorization: Bearer <your-jwt-token>
 ## 🏠 Home API
 
 ### GET /Home/GetAll
-الحصول على جميع المنازل المعتمدة
+Get all approved properties
 
 ### POST /Home/Add
-إضافة منزل جديد (يتطلب دور Owner)
+Add new property (requires Owner role)
 
 ### PUT /Home/Update/{id}
-تحديث منزل (يتطلب دور Owner)
+Update property (requires Owner role)
 
 ### DELETE /Home/DeleteHome/{id}
-حذف منزل (يتطلب دور Owner)
+Delete property (requires Owner role)
 
 ## 🛏️ Room API
 
 ### GET /Room/GetRoomsByHome/{homeId}
-الحصول على غرف منزل معين
+Get rooms for specific property
 
 ### POST /Room/Add
-إضافة غرفة جديدة
+Add new room
 
 ## 💳 Booking API
 
 ### POST /Booking/BookRoom/{roomId}
-حجز غرفة
+Book a room
 
 ### GET /Booking/GetUserBookings/{userId}
-الحصول على حجوزات المستخدم
+Get user bookings
 
 ## 💬 Chat API
 
 ### GET /Chat/GetChats/{userId}
-الحصول على المحادثات
+Get user chats
 
 ### POST /Chat/SendMessage
-إرسال رسالة
+Send message
 
 ## 📊 Admin API
 
 ### GET /Admin/GetPendingHomes
-الحصول على المنازل المعلقة (يتطلب دور Admin)
+Get pending properties (requires Admin role)
 
 ### PUT /Admin/UpdateHomeStatus/{id}
-تحديث حالة المنزل (يتطلب دور Admin)
+Update property status (requires Admin role)
 
 ---
 
-**للمزيد من التفاصيل، راجع Swagger Documentation: `/swagger`** 
+**For more details, check Swagger Documentation: `/swagger`** 

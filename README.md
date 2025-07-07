@@ -132,9 +132,6 @@ FinalGP/
 └── ...
 ```
 
-## 🗄️ Database Structure
-
-Below is the Entity Relationship Diagram (ERD) for the UNISTAY system:
 
 ## 🔐 Security
 
@@ -239,6 +236,10 @@ If you encounter any issues or have questions, please:
 - Open a new Issue
 - Contact us via email
 - Check the Swagger documentation
+
+## 🗄️ Database Structure
+
+Below is the Entity Relationship Diagram (ERD) for the UNISTAY system:
 
 ![UNISTAY ERD](./ERD.png)
 

@@ -248,8 +248,13 @@ Below is the Entity Relationship Diagram (ERD) for the UNISTAY system:
 
 ## 🙏 Acknowledgments
 
-Special thanks to all contributors and developers who helped develop this project.
+Special thanks to all contributors and developers who helped develop this project, especially my amazing teammates:
+
+- [Radwa Mostafa](https://www.linkedin.com/in/radwa-mostafa56/)
+- [Shahd Mohammed](https://www.linkedin.com/in/shahd-mohammed-b2aa742a7/)
+- [Shahd Mohammed](https://www.linkedin.com/in/shahd-mohammed-7111ba311/)
+- [Adham Mohamed](https://www.linkedin.com/in/adham-mohamed-8a8643285/)
 
 ---
 
-**Developed by the UNISTAY Team** 🚀 
+**Developed by the UNISTAY Team** 🚀

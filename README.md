@@ -1,8 +1,8 @@
-# 🏠 UniStay - Student Housing Management System
+# 🏠 UNISTAY - Student Housing Management System
 
 ## 📋 Project Description
 
-**UniStay** is a comprehensive student housing rental management system that provides an easy-to-use platform connecting property owners with students seeking suitable accommodation. The system supports complete property and booking management with a modern, interactive user interface.
+**UNISTAY** is a comprehensive student housing rental management system that provides an easy-to-use platform connecting property owners with students seeking suitable accommodation. The system supports complete property and booking management with a modern, interactive user interface.
 
 ## ✨ Key Features
 
@@ -35,7 +35,7 @@
 - **React 19** - User interface library
 - **Vite** - Fast build tool
 - **React Router DOM** - Navigation management
-- **Axios** - HTTP requests
+- **Axios** - HTTPS requests
 - **React Google Maps API** - Interactive maps
 - **Stripe React** - Payment processing
 - **SignalR** - Real-time communication
@@ -107,7 +107,7 @@ npm run dev
 
 6. **Open the Application**
 - Frontend: `https://localhost:55559`
-- Backend API: `http://localhost:7194`
+- Backend API: `https://localhost:7194`
 - Swagger Documentation: `https://localhost:7194/swagger`
 
 ## 📁 Project Structure
@@ -131,6 +131,10 @@ FinalGP/
 │   └── wwwroot/            # Static files
 └── ...
 ```
+
+## 🗄️ Database Structure
+
+Below is the Entity Relationship Diagram (ERD) for the UNISTAY system:
 
 ## 🔐 Security
 
@@ -158,6 +162,73 @@ We welcome contributions! Please follow these steps:
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
+## 📚 API Documentation
+
+### Authentication Endpoints
+- `POST /api/Authentication/Register` — Register a new user (with role selection)
+- `POST /api/Authentication/Login` — User login
+- `POST /api/Authentication/GoogleRegister` — Google OAuth registration
+- `POST /api/Authentication/GoogleLogin` — Google OAuth login
+- `POST /api/Authentication/ForgotPassword` — Request password reset
+- `POST /api/Authentication/ResetPassword` — Reset password
+- `POST /api/Authentication/RefreshToken` — Refresh JWT token
+
+### User Endpoints
+- `GET /api/User/Profile` — Get user profile
+- `PUT /api/User/Profile` — Update user profile
+- `POST /api/User/ChangePassword` — Change password
+- `GET /api/User/Notifications` — Get user notifications
+
+### Property (Home) Endpoints
+- `GET /api/Homes` — List all homes
+- `GET /api/Homes/{id}` — Get home details
+- `POST /api/Homes` — Add new home (Owner only)
+- `PUT /api/Homes/{id}` — Update home (Owner only)
+- `DELETE /api/Homes/{id}` — Delete home (Owner only)
+- `GET /api/Homes/Owner/{ownerId}` — Get homes by owner
+
+### Room Endpoints
+- `GET /api/Rooms/Home/{homeId}` — Get rooms for a home
+- `POST /api/Rooms` — Add new room (Owner only)
+- `PUT /api/Rooms/{id}` — Update room (Owner only)
+- `DELETE /api/Rooms/{id}` — Delete room (Owner only)
+
+### Booking Endpoints
+- `POST /api/Bookings` — Book a room
+- `GET /api/Bookings/User/{userId}` — Get user bookings
+- `GET /api/Bookings/Owner/{ownerId}` — Get bookings for owner's homes
+- `PUT /api/Bookings/{id}/Status` — Update booking status
+
+### Chat & Notification Endpoints
+- `GET /api/Chats/User/{userId}` — Get user chats
+- `POST /api/Chats` — Start new chat
+- `GET /api/Messages/{chatId}` — Get chat messages
+- `POST /api/Messages` — Send message
+- `GET /api/Notifications/User/{userId}` — Get notifications
+
+### Admin Endpoints
+- `GET /api/Admin/PendingHomes` — Get pending homes for approval
+- `PUT /api/Admin/Homes/{id}/Status` — Approve/reject home
+- `GET /api/Admin/Reports` — Get all reports
+- `PUT /api/Admin/Reports/{id}/Status` — Update report status
+- `GET /api/Admin/Users` — Get all users
+- `PUT /api/Admin/Users/{id}/Ban` — Ban/unban user
+
+### Facility Endpoints
+- `GET /api/Facilities` — List all facilities
+- `POST /api/Facilities` — Add facility (Admin only)
+- `PUT /api/Facilities/{id}` — Update facility (Admin only)
+- `DELETE /api/Facilities/{id}` — Delete facility (Admin only)
+
+### Ratings, Comments, Reports, Saves
+- `POST /api/Ratings` — Rate a home
+- `POST /api/Comments` — Add comment to home
+- `POST /api/Reports` — Report a home
+- `POST /api/Saves` — Save a home to favorites
+- `DELETE /api/Saves/{id}` — Remove home from favorites
+
+> For full details and request/response formats, see the integrated Swagger documentation at `/swagger`.
+
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -169,10 +240,15 @@ If you encounter any issues or have questions, please:
 - Contact us via email
 - Check the Swagger documentation
 
+![UNISTAY ERD](./ERD.png)
+
+🎥 **Watch the Demo:**  
+[https://drive.google.com/file/d/1Lf6vES3d7WOv9Hf2NKdiTwmawubq8WOc/view?usp=drive_link](https://drive.google.com/file/d/1Lf6vES3d7WOv9Hf2NKdiTwmawubq8WOc/view?usp=drive_link)
+
 ## 🙏 Acknowledgments
 
 Special thanks to all contributors and developers who helped develop this project.
 
 ---
 
-**Developed by the ESH Team** 🚀 
+**Developed by the UNISTAY Team** 🚀 
